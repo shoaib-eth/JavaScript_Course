@@ -1,0 +1,76 @@
+const person = {
+  name: "shoaib",
+  email: "shoaib@gmail.com",
+  branch: "CSE",
+};
+
+const { name, email } = person;
+
+console.log(name);
+console.log(email);
+
+// Default Values
+const num = {
+  a: 2,
+  b: 3,
+};
+const { a, b, c = 5 } = num;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+// Renaming Variables
+const Guest = {
+  Name: "Shoaib",
+  email: "shoaib@email.com",
+};
+
+const { Name: GuestName, email: GuestEmail } = Guest;
+
+console.log(GuestName);
+console.log(GuestEmail);
+
+// Rest Syntax
+const person1 = {
+  name1: "john",
+  age: 21,
+  country: "USA",
+  city: "New York",
+};
+
+const { name1, age, ...address } = person1;
+
+console.log(name1);
+console.log(age);
+console.log(address);
+
+// Parameter Destructuring
+function printPersonDetails({ personName, personAge }) {
+  console.log(`Name : ${name}`);
+  console.log(`Age : ${age}`);
+}
+
+const personDetails = { personName: "John", personAge: 21 };
+
+printPersonDetails(person);
+
+// Nested Destructuring
+const nestedObj = {
+  person_name: "John",
+  person_age: 21,
+  person_email: "shoaib@gmail.com",
+  person_address: {
+    street: "123 Main Station",
+    Dsitrict: "Gwalior",
+  },
+};
+
+const {
+  person_name,
+  person_address: { street, Dsitrict },
+} = nestedObj;
+
+console.log(person_name);
+console.log(street);
+console.log(Dsitrict);
