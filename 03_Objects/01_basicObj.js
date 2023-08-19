@@ -36,7 +36,7 @@ delete person.email;
 // sayHello Function Inside the Object
 const person1 = {
   name: "Shoaib",
-  course: "Computer Science Engineering",
+  course: "CSE",
   email: "shoaib@gmail.com",
   address: {
     street: "New Colony",
