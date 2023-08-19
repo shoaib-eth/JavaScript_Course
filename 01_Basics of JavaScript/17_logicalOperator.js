@@ -31,7 +31,7 @@ if (firstName[0] === "S" || age >= 18) {
 }
 
 // Modulo Operaot (%)
-let num = 21;
+let num = 20;
 
 if (num % 2 === 0) {
   console.log(`${num} is even`);
