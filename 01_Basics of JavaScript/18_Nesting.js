@@ -1,4 +1,4 @@
-let winningNumber = 19;
+let winningNumber = 67;
 let userGuess = +prompt("Guess a number between 1 to 50 :");
 
 if (userGuess === winningNumber) {
