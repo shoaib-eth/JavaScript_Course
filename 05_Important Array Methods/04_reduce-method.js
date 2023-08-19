@@ -9,9 +9,9 @@ console.log(reducedValue); // Output - > 155
 
 // Example - > 2
 const userCart = [
-  { productId: 01, productName: "Laptop", price: 50000 },
-  { productId: 02, productName: "Smart Phone", price: 15000 },
-  { productId: 03, productName: "TV", price: 20000 },
+  { productId: 1, productName: "Laptop", price: 50000 },
+  { productId: 2, productName: "Smart Phone", price: 15000 },
+  { productId: 3, productName: "TV", price: 20000 },
 ];
 
 const totalAmount = userCart.reduce(
@@ -39,4 +39,11 @@ const flattenArray = array.reduce(
   (result, currentArray) => result.concat(currentArray),
   []
 );
-console.log(flattenArray);
+console.log(flattenArray); // Output - > [1, 2, 3, 4, 5, 6]
+
+// Example - > 5 : Count occurrences of elements in an array
+// const fruits = ["apple", "banana", "orange", "banana", "apple", "apple"];
+
+// const fruitsCount=fruits.reduce((counts, fruit)=>{
+//     counts[fruit]=(counts[fruit]|| 0)
+// })
