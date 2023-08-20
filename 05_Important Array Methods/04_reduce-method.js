@@ -42,8 +42,11 @@ const flattenArray = array.reduce(
 console.log(flattenArray); // Output - > [1, 2, 3, 4, 5, 6]
 
 // Example - > 5 : Count occurrences of elements in an array
-// const fruits = ["apple", "banana", "orange", "banana", "apple", "apple"];
+const fruits = ["apple", "banana", "orange", "banana", "apple", "apple"];
 
-// const fruitsCount=fruits.reduce((counts, fruit)=>{
-//     counts[fruit]=(counts[fruit]|| 0)
-// })
+const fruitsCount = fruits.reduce((counts, fruit) => {
+  counts[fruit] = (counts[fruit] || 0) + 1;
+  return counts;
+}, {});
+
+console.log(fruitsCount);
