@@ -1,7 +1,7 @@
 // Example - > 1 : Creating a Map
 const myMap = new Map();
 
-// Adding Entries
+// Example - > 2 : Adding Entries
 myMap.set("Name", "Shoaib");
 myMap.set("Course", "CSE");
 
