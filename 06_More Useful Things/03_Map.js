@@ -9,7 +9,7 @@ myMap.set("Course", "CSE");
 console.log(myMap.get("Name")); // Shoaib
 console.log(myMap.get("Course")); // CSE
 
-// Checking Existence
+// Example - > 4 : Checking Existence
 console.log(myMap.has("Name")); // true
 console.log(myMap.has("age")); // fasle
 
