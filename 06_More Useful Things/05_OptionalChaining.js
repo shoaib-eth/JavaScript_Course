@@ -12,7 +12,7 @@ console.log(cityName); // Wonderland
 const StreetName = person?.address?.street;
 console.log(StreetName); // undefind
 
-// Accessing an array element with Oprtional Chainging
+// Example - > 2 : Accessing an array element with Oprtional Chainging
 const myArray = [1, 2, 3, 4, 5];
 
 const index0 = myArray?.[0];
