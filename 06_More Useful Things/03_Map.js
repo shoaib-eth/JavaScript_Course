@@ -13,12 +13,12 @@ console.log(myMap.get("Course")); // CSE
 console.log(myMap.has("Name")); // true
 console.log(myMap.has("age")); // fasle
 
-// Deleting Entries
+// Example - > 5 : Deleting Entries
 myMap.delete(`Course`);
 console.log(myMap.get("Course")); // undefind
 console.log(myMap.has("Course")); // fasle
 
-// Iterating through a Map
+// Example - > 6 : Iterating through a Map
 myMap.forEach((value, key) => {
   console.log(`${key} : ${value}`); // Name : Shoaib
 });
@@ -35,5 +35,5 @@ for (const [key, value] of myMap.entries()) {
   console.log(`${key} : ${value}`); // Name : Shoaib
 }
 
-// Size of Map()
+// Example - > 7 : Size of Map()
 console.log(myMap.size);  // 1
