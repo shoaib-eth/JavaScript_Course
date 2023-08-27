@@ -1,4 +1,4 @@
-// Accessing a deeply nested property
+// Example - > 1 : Accessing a deeply nested property
 const person = {
   name: "Alice",
   address: {
