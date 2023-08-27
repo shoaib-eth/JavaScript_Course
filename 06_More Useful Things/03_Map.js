@@ -1,4 +1,4 @@
-// Creating a Map
+// Example - > 1 : Creating a Map
 const myMap = new Map();
 
 // Adding Entries
