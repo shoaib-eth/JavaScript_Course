@@ -5,7 +5,7 @@ const myMap = new Map();
 myMap.set("Name", "Shoaib");
 myMap.set("Course", "CSE");
 
-// Getting Values
+// Example - > 3 : Getting Values
 console.log(myMap.get("Name")); // Shoaib
 console.log(myMap.get("Course")); // CSE
 
