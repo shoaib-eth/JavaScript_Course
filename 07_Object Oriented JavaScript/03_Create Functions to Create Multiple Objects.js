@@ -1,3 +1,5 @@
+// Create Functions to Create Multiple Objects
+
 // Example - > 1
 function createUser(firstName, lastName, email, age, address) {
   const user = {}; // Create an empty object to store user data.
