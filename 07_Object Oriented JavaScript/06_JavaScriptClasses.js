@@ -22,7 +22,7 @@ const user1 = new createUser(
   2,
   "My Address"
 );
-console.log(user1);
+console.log(user1); // Output - > createUser {firstName: 'Shoaib', lastName: 'Khan', email: 'Shoaib@email.com', age: 2, address: 'My Address'}
 
 // Example - > 2
 class Student {
@@ -40,3 +40,18 @@ class Student {
 
 const Student1 = new Student("Alice", "John", 12, 123);
 console.log(Student1); // Output - > Student {firstName: 'Alice', lastName: 'John', age: 12, rollNo: 123}
+
+// Example - > 3
+class pen {
+  constructor(name, color, price) {
+    this.name = name;
+    this.color = color;
+    this.price = price;
+  }
+  showPrice() {
+    return `Price of ${this.name} is ${this.price}`;
+  }
+}
+
+const pen1 = new pen("Marker", "Blue", "1$");
+console.log(pen1);
