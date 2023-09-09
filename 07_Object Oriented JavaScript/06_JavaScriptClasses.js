@@ -22,4 +22,21 @@ const user1 = new createUser(
   2,
   "My Address"
 );
-console.log(Object.getPrototypeOf(user1));
+console.log(user1);
+
+// Example - > 2
+class Student {
+  constructor(firstNameInput, lastNameInput, ageInput, rollNoInput) {
+    this.firstName = firstNameInput;
+    this.lastName = lastNameInput;
+    this.age = ageInput;
+    this.rollNo = rollNoInput;
+  }
+
+  name() {
+    return `The student's name is ${firstNameInput} ${lastNameInput}`;
+  }
+}
+
+const Student1 = new Student("Alice", "John", 12, 123);
+console.log(Student1); // Output - > Student {firstName: 'Alice', lastName: 'John', age: 12, rollNo: 123}
