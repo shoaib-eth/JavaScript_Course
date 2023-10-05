@@ -155,7 +155,20 @@ console.log(obj5.getThis()); // { name: 'obj5', getThis: [Function: getThis] }
 ////////////------ Sacler Academy Examples --------\\\\\\\\\\\\\
 console.log(this === window); // Output - > true
 
-
 // Example - > 2
-this.name= 'James';
+this.name = "James";
 console.log(window.name); // 'James'
+
+// Example - > 3
+// Variable declared in a global scope
+var name = "James";
+
+function Employee() {
+  var name = "Jake";
+  console.log(`Name : ${name}`);
+
+  // this here refers to the global object
+  console.log(`this.name = ${this.name}`);
+}
+
+Employee();
