@@ -95,3 +95,12 @@ const personObject1 = {
   },
 };
 console.log(`This is an abject method`, person.getFullName());
+
+// Calling `this` by arrow function
+const personObject2 = {
+  firtsName: "John",
+  lastName: "Doe",
+  sayName: () => `${this.firstName} ${this.lastName}`,
+};
+
+console.log(person.sayName());
