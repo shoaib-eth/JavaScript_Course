@@ -76,11 +76,22 @@ personGreet.greetArrow(); // Output - > Hello!, My Name is undefind
 // Another Examples by FreeCodeCamp Article
 const person = {
   firstName: "John",
-  lastName : "Doe",
-  id       : 5566,
-  getThis : function() {
+  lastName: "Doe",
+  id: 5566,
+  getThis: function () {
     return this;
-  }
+  },
 };
 
-console.log('this in object method', person.getThis());
+console.log("this in object method", person.getThis());
+
+///////////////////////////////////////////////////////
+const personObject1 = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 7832,
+  getFullName: function () {
+    return this.name + " " + this.lastName;
+  },
+};
+console.log(`This is an abject method`, person.getFullName());
