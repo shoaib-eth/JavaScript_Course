@@ -139,7 +139,6 @@ const obj3 = {
 
 console.log(obj3.getThis()); // { name: 'obj3' }
 
-
 // Example - > 4
 const obj4 = {
   name: "obj4",
@@ -152,3 +151,6 @@ const obj5 = { name: "obj5" };
 
 obj5.getThis = obj4.getThis;
 console.log(obj5.getThis()); // { name: 'obj5', getThis: [Function: getThis] }
+
+////////////------ Sacler Academy Examples --------\\\\\\\\\\\\\
+console.log(this === window); // Output - > true
