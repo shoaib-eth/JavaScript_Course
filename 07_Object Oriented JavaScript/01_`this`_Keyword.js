@@ -154,3 +154,8 @@ console.log(obj5.getThis()); // { name: 'obj5', getThis: [Function: getThis] }
 
 ////////////------ Sacler Academy Examples --------\\\\\\\\\\\\\
 console.log(this === window); // Output - > true
+
+
+// Example - > 2
+this.name= 'James';
+console.log(window.name); // 'James'
