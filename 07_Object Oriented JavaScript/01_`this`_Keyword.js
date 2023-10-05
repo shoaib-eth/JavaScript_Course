@@ -172,3 +172,7 @@ function Employee() {
 }
 
 Employee();
+// Output - >
+// Jack
+// James
+
