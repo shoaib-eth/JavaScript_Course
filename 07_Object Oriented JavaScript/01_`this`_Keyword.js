@@ -72,3 +72,15 @@ const personGreet = {
 
 personGreet.greet(); // Output - > Hello!, My Name is Shoaib
 personGreet.greetArrow(); // Output - > Hello!, My Name is undefind
+
+// Another Examples by FreeCodeCamp Article
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  getThis : function() {
+    return this;
+  }
+};
+
+console.log('this in object method', person.getThis());
