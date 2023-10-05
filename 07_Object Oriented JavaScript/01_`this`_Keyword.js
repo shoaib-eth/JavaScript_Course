@@ -104,3 +104,15 @@ const personObject2 = {
 };
 
 console.log(person.sayName());
+
+/////////////////////////////////////////////////////////////////////
+// Other Examples by MDN JavaScript Documentation
+
+// Example - > 1
+const test = {
+  prop: 43,
+  func: function () {
+    return this.prop;
+  },
+};
+console.log(test.func());
