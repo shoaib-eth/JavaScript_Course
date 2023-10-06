@@ -40,3 +40,26 @@ const anotherPerson2 = {
 
 const greetMessage = person2.sayHello.bind(anotherPerson);
 greetMessage("How Are You ?"); // Output - > How Are You ?, Alice
+
+/////////------FreeCodeCamp Examples--------\\\\\\\\\
+
+// Example - > 1 : Call Method
+function car(type, fuelType) {
+  this.type = type;
+  this.fuelType = fuelType;
+}
+
+function setBrand(brand) {
+  car.call(this, "Convertivle", "Petrol");
+  this.brand = brand;
+  console.log(`Car Details = `, this);
+}
+
+function definePrice(price) {
+  car.call(this, "Convertivle", "Diesel");
+  this.price = price;
+  console.log(`Car Details = `, this);
+}
+
+const newBrand = new setBrand(`Brand1`);
+const newCarPrice = new definePrice(100000);
