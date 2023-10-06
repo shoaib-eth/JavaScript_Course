@@ -92,3 +92,10 @@ function test(arg1, arg2){
 }
 
 test.call({num: 100}, 10, 20);
+
+// Example - > 4 : apply() Function
+function test(...arguments){
+  console.log(this.num, arguments);//100, [1,2,3]
+}
+
+test.apply({num: 100}, [1,2,3]); 
