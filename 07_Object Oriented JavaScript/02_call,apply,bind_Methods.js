@@ -99,3 +99,12 @@ function test(...arguments){
 }
 
 test.apply({num: 100}, [1,2,3]); 
+
+// Example - > 5 : bind() Function
+function test(arg){
+  console.log(this.number, arg);
+ }
+ 
+ let bindedFn = test.bind({number: 99}, "argument");
+ 
+ bindedFn(); // 99, "argument"s
