@@ -84,3 +84,11 @@ function definePrice(price) {
 
 const newBrand1 = new setBrand("Brand1");
 const newCarPrice1 = new definePrice(100000);
+
+
+// Example - > 3 : call() Function
+function test(arg1, arg2){
+  console.log(this.num, arg1, arg2); // 100, 10, 20
+}
+
+test.call({num: 100}, 10, 20);
