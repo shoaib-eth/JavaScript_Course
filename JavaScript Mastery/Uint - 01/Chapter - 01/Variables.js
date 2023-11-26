@@ -14,7 +14,6 @@ console.log(myLetNum);
 
 // ------------------------------------------------------------------------//
 
-
 // Question - 2 :  Declare a variable using const and assign it the value 21. Try to reassign a new value to the variable and see what happens.
 
 // Declare a variable called 'myConstNum' using the 'const' keyword and assign it the value 21.
