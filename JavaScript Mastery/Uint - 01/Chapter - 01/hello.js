@@ -5,3 +5,5 @@
 console.log("Hello World"); // Here, the string 'Hello World' is passed to the console.log() function. When this line of code is executed, 'Hello World' will be printed to the web console.
 
 console.log("Nice to meet you!");
+
+// The console.log() function can also be used to output the value of a variable.
