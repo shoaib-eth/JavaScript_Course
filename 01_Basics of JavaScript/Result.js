@@ -7,7 +7,7 @@ function calculateTotalMarks(subjects) {
   return totalMarks;
 }
 
-// Function to calculate percentage
+// Function to calculate percentage.
 function calculatePercentage(totalMarks) {
   return (totalMarks / 500) * 100;
 }
