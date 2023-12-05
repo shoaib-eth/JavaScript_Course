@@ -1,15 +1,17 @@
 // Function to calculate total marks
 function calculateTotalMarks(subjects) {
-  let totalMarks = 0;
-  for (let subject in subjects) {
-    totalMarks += subjects[subject];
-  }
-  return totalMarks;
+    let totalMarks = 0;
+    for (let subject in subjects) {
+        if (subjects.hasOwnProperty(subject)) {
+            totalMarks += subjects[subject];
+        }
+    }
+    return totalMarks;
 }
 
 // Function to calculate percentage
 function calculatePercentage(totalMarks) {
-  return (totalMarks / 500) * 100;
+    return (totalMarks / 500) * 100;
 }
 
 // Function to generate division
