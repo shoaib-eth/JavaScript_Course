@@ -10,17 +10,17 @@ const subtract = function (a, b) {
 
 // Arrow function
 const square = (num) => {
-    return num * num;
+  return num * num;
 };
 
 // Higher-order function with arrow function
 const calculateWithArrow = (operation, a, b) => {
-    return operation(a, b);
+  return operation(a, b);
 };
 
 // Callback function with arrow function
 const callbackWithArrow = () => {
-    console.log("Callback function called with arrow function");
+  console.log("Callback function called with arrow function");
 };
 
 // setTimeout function with arrow function
@@ -31,12 +31,12 @@ setInterval(callbackWithArrow, 2000);
 
 // Function with default parameters and arrow function
 const greetWithArrow = (name = "World") => {
-    console.log(`Hello, ${name}!`);
+  console.log(`Hello, ${name}!`);
 };
 
 // Function with rest parameters and arrow function
 const sumWithArrow = (...numbers) => {
-    return numbers.reduce((acc, curr) => acc + curr, 0);
+  return numbers.reduce((acc, curr) => acc + curr, 0);
 };
 
 // Function with spread operator and arrow function
@@ -45,7 +45,7 @@ console.log(sumWithArrow(...numbersWithSpread));
 
 // Function with destructuring and arrow function
 const printPersonWithArrow = ({ name, age }) => {
-    console.log(`Name: ${name}, Age: ${age}`);
+  console.log(`Name: ${name}, Age: ${age}`);
 };
 
 const personWithArrow = { name: "John", age: 30 };
@@ -58,11 +58,11 @@ console.log(reversedStringWithArrow);
 
 // Function with recursion and arrow function
 const factorialWithArrow = (n) => {
-    if (n === 0 || n === 1) {
-        return 1;
-    } else {
-        return n * factorialWithArrow(n - 1);
-    }
+  if (n === 0 || n === 1) {
+    return 1;
+  } else {
+    return n * factorialWithArrow(n - 1);
+  }
 };
 
 console.log(factorialWithArrow(5));
