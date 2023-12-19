@@ -9,12 +9,12 @@ form.setAttribute("action", "/submit-form");
 const inputName = document.createElement("input");
 inputName.setAttribute("type", "text");
 inputName.setAttribute("name", "name");
-inputName.setAttribute("placeholder", "Enter your name");
+inputName.setAttribute("placeholder", "Enter your name : ");
 
 const inputEmail = document.createElement("input");
 inputEmail.setAttribute("type", "email");
 inputEmail.setAttribute("name", "email");
-inputEmail.setAttribute("placeholder", "Enter your email");
+inputEmail.setAttribute("placeholder", "Enter your email : ");
 
 const submitButton = document.createElement("button");
 submitButton.setAttribute("type", "submit");
