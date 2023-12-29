@@ -21,5 +21,3 @@ console.log(isPrime(number));
 console.log(isPrime(7)); // Output: true
 console.log(isPrime(10)); // Output: false
 console.log(isPrime(23)); // Output: true
-
-
