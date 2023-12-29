@@ -46,3 +46,5 @@ if (operation === 1) {
 
 console.log("Result:", result);
 console.log("Operation:", operationName);
+
+
