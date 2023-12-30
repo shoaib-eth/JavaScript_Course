@@ -14,11 +14,10 @@ console.log(typeof true);
 
 const obj = { name: "John", age: 30 };
 const arr = [1, 2, 3, 4, 5];
-const func = function() {
-    console.log("Hello, world!");
+const func = function () {
+  console.log("Hello, world!");
 };
 
 console.log(typeof obj);
 console.log(typeof arr);
 console.log(typeof func);
-
