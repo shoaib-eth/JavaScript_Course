@@ -16,5 +16,3 @@ console.log(typeof str1);
 let num2 = 30;
 let str2 = `${num2}`;
 console.log(typeof str2);
-
-
