@@ -1,15 +1,12 @@
 // slice() method
 const myString = "Hello World!";
-
 let result = myString.slice(6, 12);
 console.log(result);
 
 // Another example of slice() method
 const myString1 = "Hello World!";
-
 let result1 = myString1.slice(6);
 console.log(result1);
-// It starts from index 6 and go to the end index of the string
 
 // toUpperCase() Method
 let myName = "Shoaib";
