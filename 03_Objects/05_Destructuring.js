@@ -74,3 +74,20 @@ const {
 console.log(person_name);
 console.log(street);
 console.log(Dsitrict);
+
+
+// Array Spread Operator
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+const combinedArray = [...arr1, ...arr2];
+
+console.log(combinedArray);
+
+// Object Spread Operator
+const obj1 = { a: 1, b: 2 };
+const obj2 = { c: 3, d: 4 };
+
+const combinedObject = { ...obj1, ...obj2 };
+
+console.log(combinedObject);
