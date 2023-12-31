@@ -75,7 +75,6 @@ console.log(person_name);
 console.log(street);
 console.log(Dsitrict);
 
-
 // Array Spread Operator
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
