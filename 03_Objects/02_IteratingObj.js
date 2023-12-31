@@ -27,3 +27,5 @@ const values = Object.values(obj3);
 for (let value of values) {
   console.log(value);
 }
+
+
