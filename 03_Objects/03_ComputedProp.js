@@ -31,3 +31,15 @@ const obj2 = {
 };
 
 console.log(obj2.name);
+
+
+
+// One more Example
+const dynamicKey = "dynamicKey";
+const dynamicValue = "dynamicValue";
+
+const obj3 = {
+  [dynamicKey]: dynamicValue,
+};
+
+console.log(obj3);
