@@ -66,3 +66,5 @@ const person2 = {
 
 console.log(person2.hobbies[2]);
 // person2.hobbies[2] - > accessing element of 2nd index in the array.
+
+
