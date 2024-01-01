@@ -32,3 +32,27 @@ switch (day) {
   default:
     console.log("Enter Number between 1 to 5 only");
 }
+
+
+let fruit = prompt("Enter a fruit");
+
+switch (fruit.toLowerCase()) {
+  case "apple":
+    console.log("It's an apple");
+    break;
+
+  case "banana":
+    console.log("It's a banana");
+    break;
+
+  case "orange":
+    console.log("It's an orange");
+    break;
+
+  case "grape":
+    console.log("It's a grape");
+    break;
+
+  default:
+    console.log("Unknown fruit");
+}
