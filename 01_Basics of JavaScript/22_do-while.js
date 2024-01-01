@@ -13,3 +13,12 @@ do {
   count++;
 }
 while (count <= 5);
+
+
+let x = 3;
+
+do {
+  console.log(`x: ${x}`);
+  x--;
+}
+while (x >= 0);
