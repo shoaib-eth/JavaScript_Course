@@ -5,20 +5,16 @@ do {
   i++;
 } while (i <= 1);
 
-
 let count = 1;
 
 do {
   console.log(`Count: ${count}`);
   count++;
-}
-while (count <= 5);
-
+} while (count <= 5);
 
 let x = 3;
 
 do {
   console.log(`x: ${x}`);
   x--;
-}
-while (x >= 0);
+} while (x >= 0);
