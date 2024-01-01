@@ -1,3 +1,4 @@
+// Example - > 1
 let i = 0;
 
 while (i <= 10) {
@@ -5,6 +6,7 @@ while (i <= 10) {
   i++;
 }
 
+// Example - > 2
 let count = 1;
 
 while (count <= 5) {
@@ -12,13 +14,15 @@ while (count <= 5) {
   count++;
 }
 
-
+// Example - > 3
 let x = 3;
 
 while (x >= 0) {
   console.log(`x: ${x}`);
   x--;
 }
+
+// Example - > 4
 let biggest = 0;
 let numbers = [5, 10, 2, 8, 3];
 
