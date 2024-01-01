@@ -1,10 +1,10 @@
 // Example - > 1
-let i = 5;
+let i1 = 5;
 
 do {
-  console.log(`The value of i is ${i}`);
+  console.log(`The value of i is ${i1}`);
   i++;
-} while (i <= 1);
+} while (i1 <= 1);
 
 // Example - > 2
 let count = 1;
@@ -40,14 +40,16 @@ console.log(`The biggest number is ${biggest}`);
 let i = 0;
 
 do {
-  console.log(`The value of i is ${i}`);
-  i++;
-} while (i <= 10);
+  console.log(`The value of i is ${i2}`);
+  i2++;
+} while (i2 <= 10);
 
 // Example - > 6
-let count = 1;
+let count2 = 1;
 
 do {
-  console.log(`Count: ${count}`);
-  count++;
-} while (count <= 5);
+  console.log(`Count: ${count2}`);
+  count2++;
+} while (count2 <= 6);
+
+
