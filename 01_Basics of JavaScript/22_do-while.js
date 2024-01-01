@@ -33,3 +33,7 @@ do {
   }
 }
 while (numbers.length > 0);
+
+console.log(`The biggest number is ${biggest}`);
+
+// Example - > 5
