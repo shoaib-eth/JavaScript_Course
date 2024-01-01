@@ -31,8 +31,7 @@ do {
   if (currentNumber > biggest) {
     biggest = currentNumber;
   }
-}
-while (numbers.length > 0);
+} while (numbers.length > 0);
 
 console.log(`The biggest number is ${biggest}`);
 
@@ -43,8 +42,7 @@ let i = 0;
 do {
   console.log(`The value of i is ${i}`);
   i++;
-}
-while (i <= 10);
+} while (i <= 10);
 
 // Example - > 6
 let count = 1;
@@ -52,5 +50,4 @@ let count = 1;
 do {
   console.log(`Count: ${count}`);
   count++;
-}
-while (count <= 5);
+} while (count <= 5);
