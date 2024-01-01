@@ -11,3 +11,11 @@ while (count <= 5) {
   console.log(`Count: ${count}`);
   count++;
 }
+
+
+let x = 3;
+
+while (x >= 0) {
+  console.log(`x: ${x}`);
+  x--;
+}
