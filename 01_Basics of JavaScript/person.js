@@ -22,5 +22,4 @@ accessPersonValues();
 // developer
 // New York
 
-
 Person.email = "john@example.com";
