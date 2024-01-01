@@ -51,5 +51,3 @@ do {
   console.log(`Count: ${count2}`);
   count2++;
 } while (count2 <= 6);
-
-
