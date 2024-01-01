@@ -33,7 +33,6 @@ switch (day) {
     console.log("Enter Number between 1 to 5 only");
 }
 
-
 let fruit = prompt("Enter a fruit");
 
 switch (fruit.toLowerCase()) {
