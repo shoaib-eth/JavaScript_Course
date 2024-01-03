@@ -7,3 +7,4 @@ const Person = {
 };
 
 console.log(Person);
+console.log(Person.name); // Output: John
