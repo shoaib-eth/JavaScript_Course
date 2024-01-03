@@ -13,5 +13,3 @@ console.log("The Fibonacci series up to", n, "is:");
 for (let i = 0; i < series.length; i++) {
   console.log(series[i]);
 }
-
-
