@@ -6,5 +6,18 @@ const Person = {
     location: "New York",
 };
 
-console.log(Person);
-console.log(Person.name); // Output: John
+function accessPersonValues() {
+    console.log(Person.name);
+    console.log(Person.age);
+    console.log(Person.gender);
+    console.log(Person.occupation);
+    console.log(Person.location);
+}
+
+accessPersonValues();
+// Output:
+// John
+// 30
+// male
+// developer
+// New York
