@@ -21,3 +21,6 @@ accessPersonValues();
 // male
 // developer
 // New York
+
+
+Person.email = "john@example.com";
