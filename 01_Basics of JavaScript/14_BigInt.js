@@ -8,7 +8,6 @@ const bigNum1 = 98723983745809394859034094n;
 let result = bigNum + bigNum1;
 console.log(result);
 
-
 const bigNum2 = 1234567890123456789012345678901234567890n;
 console.log(bigNum);
 
