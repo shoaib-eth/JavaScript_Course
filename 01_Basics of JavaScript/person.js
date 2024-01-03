@@ -1,17 +1,17 @@
 const Person = {
-    name: "John",
-    age: 30,
-    gender: "male",
-    occupation: "developer",
-    location: "New York",
+  name: "John",
+  age: 30,
+  gender: "male",
+  occupation: "developer",
+  location: "New York",
 };
 
 function accessPersonValues() {
-    console.log(Person.name);
-    console.log(Person.age);
-    console.log(Person.gender);
-    console.log(Person.occupation);
-    console.log(Person.location);
+  console.log(Person.name);
+  console.log(Person.age);
+  console.log(Person.gender);
+  console.log(Person.occupation);
+  console.log(Person.location);
 }
 
 accessPersonValues();
