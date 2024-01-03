@@ -1,7 +1,11 @@
 function fibonacciSeries(n) {
-  const series = [0, 1];
-  for (let i = 2; i <= n; i++) {
-    series.push(series[i - 1] + series[i - 2]);
+  let series = [];
+  let a = 0, b = 1;
+  for (let i = 0; i < n; i++) {
+    series.push(a);
+    let temp = a;
+    a = b;
+    b = temp + b;
   }
   return series;
 }
