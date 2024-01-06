@@ -39,8 +39,6 @@ if (num % 2 === 0) {
   console.log(`${num} is odd`);
 }
 
-
-
 // Checking if a number is positive, negative, or zero
 let number = -5;
 
@@ -75,4 +73,3 @@ if (message.includes(character)) {
 } else {
   console.log(`The string does not contain the character '${character}'`);
 }
-
