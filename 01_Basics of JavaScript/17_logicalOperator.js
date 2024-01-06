@@ -38,3 +38,41 @@ if (num % 2 === 0) {
 } else {
   console.log(`${num} is odd`);
 }
+
+
+
+// Checking if a number is positive, negative, or zero
+let number = -5;
+
+if (number > 0) {
+  console.log("The number is positive");
+} else if (number < 0) {
+  console.log("The number is negative");
+} else {
+  console.log("The number is zero");
+}
+
+// Using logical operators to combine conditions
+let temperature = 25;
+let isRaining = true;
+
+if (temperature > 30 && !isRaining) {
+  console.log("It's a hot and sunny day");
+} else if (temperature > 30 && isRaining) {
+  console.log("It's a hot day, but it's raining");
+} else if (temperature <= 30 && !isRaining) {
+  console.log("It's a pleasant day");
+} else {
+  console.log("It's a cool day");
+}
+
+// Checking if a string contains a specific character
+let message = "Hello, world!";
+let character = "o";
+
+if (message.includes(character)) {
+  console.log(`The string contains the character '${character}'`);
+} else {
+  console.log(`The string does not contain the character '${character}'`);
+}
+
