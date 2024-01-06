@@ -9,7 +9,6 @@ if (userGuess === winningNumber) {
   console.log("Your Guess is too high!");
 }
 
-
 // Another example of nested if-else
 let isRaining = true;
 let isSunny = false;
