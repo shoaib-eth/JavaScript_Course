@@ -14,13 +14,10 @@ let isRaining = true;
 
 if (temperature > 30 && !isRaining) {
   console.log("It's a hot and sunny day");
-}
-else if (temperature > 30 && isRaining) {
+} else if (temperature > 30 && isRaining) {
   console.log("It's a hot day, but it's raining");
-}
-else if (temperature <= 30 && !isRaining) {
+} else if (temperature <= 30 && !isRaining) {
   console.log("It's not raining but the temperature is moderate");
-}
-else {
+} else {
   console.log("Don't even ask");
 }
