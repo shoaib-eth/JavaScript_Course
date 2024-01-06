@@ -73,3 +73,11 @@ if (message.includes(character)) {
 } else {
   console.log(`The string does not contain the character '${character}'`);
 }
+
+
+// Ternary Operator
+// Syntax: condition ? exprIfTrue : exprIfFalse
+// Example:
+let num1 = 10;
+let isEven = num1 % 2 === 0 ? true : false;
+console.log(isEven);
