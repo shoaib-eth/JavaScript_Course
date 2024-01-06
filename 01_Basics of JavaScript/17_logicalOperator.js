@@ -74,7 +74,6 @@ if (message.includes(character)) {
   console.log(`The string does not contain the character '${character}'`);
 }
 
-
 // Ternary Operator
 // Syntax: condition ? exprIfTrue : exprIfFalse
 // Example:
