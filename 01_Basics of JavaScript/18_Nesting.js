@@ -10,6 +10,7 @@ if (userGuess === winningNumber) {
 }
 
 
+// Another example of nested if-else
 let isRaining = true;
 let isSunny = false;
 
