@@ -34,3 +34,18 @@ while (numbers.length > 0) {
 }
 
 console.log(`The biggest number is ${biggest}`);
+
+// Example - > 5
+
+let smallest = 0;
+let numbers1 = [5, 10, 2, 8, 3];
+
+while (numbers1.length > 0) {
+  let currentNumber = numbers1.pop();
+  if (currentNumber < smallest) {
+    smallest = currentNumber;
+  }
+}
+
+console.log(`The smallest number is ${smallest}`);
+
