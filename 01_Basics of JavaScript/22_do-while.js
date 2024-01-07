@@ -71,7 +71,6 @@ do {
   if (currentNumber > biggest2) {
     biggest2 = currentNumber;
   }
-}
-while (numbers2.length > 0);
+} while (numbers2.length > 0);
 
 console.log(`The biggest number is ${biggest2}`);
