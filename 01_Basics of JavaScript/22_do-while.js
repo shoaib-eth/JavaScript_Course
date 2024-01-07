@@ -60,3 +60,18 @@ do {
   console.log(`x: ${x2}`);
   x2--;
 } while (x2 >= 0);
+
+// Example - > 8
+
+let biggest2 = 0;
+let numbers2 = [5, 10, 2, 8, 3];
+
+do {
+  let currentNumber = numbers2.pop();
+  if (currentNumber > biggest2) {
+    biggest2 = currentNumber;
+  }
+}
+while (numbers2.length > 0);
+
+console.log(`The biggest number is ${biggest2}`);
