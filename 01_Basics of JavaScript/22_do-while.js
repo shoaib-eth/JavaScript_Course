@@ -59,6 +59,4 @@ let x2 = 3;
 do {
   console.log(`x: ${x2}`);
   x2--;
-}
-
-while (x2 >= 0);
+} while (x2 >= 0);
