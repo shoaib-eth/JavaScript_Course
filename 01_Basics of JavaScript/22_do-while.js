@@ -51,3 +51,14 @@ do {
   console.log(`Count: ${count2}`);
   count2++;
 } while (count2 <= 6);
+
+// Example - > 7
+
+let x2 = 3;
+
+do {
+  console.log(`x: ${x2}`);
+  x2--;
+}
+
+while (x2 >= 0);
