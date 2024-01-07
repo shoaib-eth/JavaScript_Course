@@ -33,7 +33,6 @@ switch (day) {
     console.log("Enter Number between 1 to 5 only");
 }
 
-
 // Another Example of Switch Case
 let fruit = prompt("Enter a fruit");
 
@@ -55,5 +54,5 @@ switch (fruit.toLowerCase()) {
     break;
 
   default:
-    console.log("Unknown fruit");
+    console.log("Enter a valid fruit");
 }
