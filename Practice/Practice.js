@@ -1,5 +1,8 @@
-let user = `Shoaib`,
-  age = 21,
-  message = `Hello`;
+let hello = "Hello World";
+let message;
 
-alert(`User name is ${user}, age is ${age}, message is ${message}`);
+message = hello;
+
+
+alert(message);
+alert(hello);
