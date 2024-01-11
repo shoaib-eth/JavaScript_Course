@@ -1,7 +1,8 @@
-let hello = "Hello World";
-let message;
+const COLOR_RED = "#F00";
+const COLOR_GREEN = "#0F0";
+const COLOR_BLUE = "#00F";
+const COLOR_ORANGE = "#FF7F00";
 
-message = hello;
-
-alert(message);
-alert(hello);
+// ...when we need to pick a color
+let color = COLOR_ORANGE;
+alert(color); // #FF7F00
