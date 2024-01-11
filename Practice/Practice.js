@@ -5,7 +5,7 @@ console.log($ + _);
 
 // Example - > Working with variables
 
-let admin, name; 
+let admin, name;
 
 name = "John";
 
