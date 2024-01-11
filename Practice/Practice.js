@@ -5,10 +5,10 @@ console.log($ + _);
 
 // Example - > Working with variables
 
-let admin;
-let name;
+let admin, name; // can declare two variables at once
 
 name = "John";
+
 admin = name;
 
-alert(admin);
+alert( admin ); // "John"
