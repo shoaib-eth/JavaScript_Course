@@ -16,5 +16,12 @@ console.log(NaN + 5); // NaN
 console.log(NaN * 5); // NaN
 
 // Example - if there’s a NaN somewhere in a mathematical expression, it propagates to the whole result (there’s only one exception to that: NaN ** 0 is 1).
- 
+
 console.log(NaN ** 0); // 1
+
+// Example - BigInt
+
+const bigInt = 23897498023701928094176235789232344n;
+console.log(bigInt);
+
+// Example - String
