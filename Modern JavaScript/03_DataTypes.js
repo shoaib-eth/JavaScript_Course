@@ -35,3 +35,8 @@ console.log(singleQoutesString);
 console.log(backticksString);
 
 console.log(`${doubleQoutesString} Welcome to JS World!`);
+
+let name = "Shoaib";
+
+console.log(`Hello ${name}`);
+console.log(`The result is ${2 ** 2}`);
