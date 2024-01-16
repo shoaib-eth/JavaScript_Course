@@ -25,3 +25,13 @@ const bigInt = 23897498023701928094176235789232344n;
 console.log(bigInt);
 
 // Example - String
+
+let doubleQoutesString = "Hello!";
+let singleQoutesString = "Hi";
+let backticksString = `Hey`;
+
+console.log(doubleQoutesString);
+console.log(singleQoutesString);
+console.log(backticksString);
+
+console.log(`${doubleQoutesString} Welcome to JS World!`);
