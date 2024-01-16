@@ -80,3 +80,11 @@ console.log(typeof Symbol("id")); // "symbol"
 console.log(typeof Math); // "object"  (1)
 console.log(typeof null); // "object"  (2)
 console.log(typeof alert); // "function"  (3)
+
+// Task - String
+
+let name1 = "Shoaib";
+
+console.log(`Hello! ${1}`); // Hello! 1
+console.log(`Hello! ${"name"}`); // Hello! name
+console.log(`Hello! ${name}`); // Hello! Shoaib
