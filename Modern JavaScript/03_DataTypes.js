@@ -40,3 +40,19 @@ let name = "Shoaib";
 
 console.log(`Hello ${name}`);
 console.log(`The result is ${2 ** 2}`);
+
+// Example - Boolean (logical type)
+
+let isGreater = 4 > 1;
+
+console.log(isGreater);
+
+let isEven = 18;
+
+if (isEven % 2 == 0) {
+  console.log(`${isEven} is even`);
+} else {
+  console.log(`${isEven} is odd`);
+}
+
+
