@@ -55,4 +55,10 @@ if (isEven % 2 == 0) {
   console.log(`${isEven} is odd`);
 }
 
+// Example - `null` and `undefined`
 
+let age = null;
+console.log(age);   // null
+
+let age2;
+console.log(age2);   // undefined
