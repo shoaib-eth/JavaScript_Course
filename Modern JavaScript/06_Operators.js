@@ -161,3 +161,48 @@ counter6++;
 console.log(counter6); // 2 (1 + 1 = 2)
 
 // --------------------------------------------------------------------------------
+
+// Example - Comma Operator
+
+let a3 = (1 + 2, 3 + 4);
+
+console.log(a3); // 7 (the result of 3 + 4 )
+
+// --------------------------------------------------------------------------------
+
+// Tasks
+
+// Task 1 - Fix the addition
+
+let number1 = prompt("Enter the First Number");
+let number2 = prompt("Enter the Second Number");
+
+alert(`Answer = ${+number1 + +number2}`);
+alert(
+  `Explanation = Addition of ${number1} and ${number2} is ${
+    +number1 + +number2
+  }`
+);
+
+// Task 2 - Type Conversions
+
+"" + 1 + 0;
+"" - 1 + 0;
+true + false;
+6 / "3";
+"2" * "3";
+4 + 5 + "px";
+"$" + 4 + 5;
+"4" - 2;
+"4px" - 2;
+"  -9  " + 5;
+"  -9  " - 5;
+null + 1;
+undefined + 1;
+" \t \n" - 2;
+
+// Task 3 - Assignment Result
+let a5 = 2;
+
+let x1 = 1 + (a5 *= 2); // 5
+console.log(x1); // 5
