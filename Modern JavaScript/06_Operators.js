@@ -41,10 +41,9 @@ console.log(`${str1} ${str2}`); // Hello Programmers
 console.log("1" + 2); // 12
 console.log(1 + "2"); // 12
 
-
 // Complex Examples
 
-console.log(2 + 2 + '1'); // 41 (not 221)
+console.log(2 + 2 + "1"); // 41 (not 221)
 console.log("1" + 2 + 2); // 122 (not 14)
 
 console.log(2 + true); // 3
@@ -75,5 +74,15 @@ console.log(2 * "two"); // NaN
 console.log(2 / "two"); // NaN
 console.log(2 % "two"); // NaN
 console.log(2 ** "two"); // NaN
+
+// --------------------------------------------------------------------------------
+
+// Example - Numeric Conversion (Unary +)
+
+let apples = "2";
+let oranges = "3";
+
+console.log(apples + oranges); // 23
+console.log(+apples + +oranges); // 5
 
 // --------------------------------------------------------------------------------
