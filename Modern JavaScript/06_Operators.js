@@ -86,3 +86,39 @@ console.log(apples + oranges); // 23
 console.log(+apples + +oranges); // 5
 
 // --------------------------------------------------------------------------------
+
+// Example - Chaininig Assignment
+
+let num1, num2, num3;
+
+num1 = num2 = num3 = 5;
+
+console.log(num1); // 5
+console.log(num2); // 5
+console.log(num3); // 5
+
+// --------------------------------------------------------------------------------
+
+// Example - Modifying in Place
+
+let n = 2;
+n = n + 5;
+n = n * 2;
+
+console.log(n); // 14
+
+// Shortest way to write the above code
+let n1 = 2;
+n1 += 5;
+n1 *= 2;
+
+console.log(n1); // 14
+
+// Modify and assign
+
+let n2 = 2;
+n2 *= 3 + 5;
+
+console.log(n2); // 16
+
+// --------------------------------------------------------------------------------
