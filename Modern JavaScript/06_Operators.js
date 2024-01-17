@@ -122,3 +122,42 @@ n2 *= 3 + 5;
 console.log(n2); // 16
 
 // --------------------------------------------------------------------------------
+
+// Example - Increment and Decrement
+
+// Increment ++ increases a variable by 1
+let counter = 2;
+counter++; // works the same as counter = counter + 1, but is shorter
+console.log(counter); // 3
+
+// Decrement -- decreases a variable by 1
+let counter1 = 2;
+counter1--; // works the same as counter = counter - 1, but is shorter
+console.log(counter1); // 1
+
+// Postfix and Prefix
+
+let counter2 = 1;
+let a1 = ++counter2;
+console.log(a1); // 2 (prefix form returns the new value)
+
+let counter3 = 1;
+let a2 = counter3++;
+console.log(a2); // 1 (postfix form returns the old value)
+
+// Example - Increment/decrement among other operators
+
+let counter4 = 1;
+console.log(2 * ++counter4); // 4 (1 + 1 = 2, then 2 * 2 = 4)
+
+let counter5 = 1;
+console.log(2 * counter5++); // 2 (2 * 1 = 2, then 1 + 1 = 2)
+
+// One line one action
+
+let counter6 = 1;
+console.log(2 * counter6);
+counter6++;
+console.log(counter6); // 2 (1 + 1 = 2)
+
+// --------------------------------------------------------------------------------
