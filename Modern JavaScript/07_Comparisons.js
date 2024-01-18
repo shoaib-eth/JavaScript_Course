@@ -29,3 +29,12 @@ console.log("01" == 1); // true, string '01' becomes a number 1
 
 console.log(true == 1); // true
 console.log(false == 0); // true
+
+// Strict Equality
+
+console.log(0 == false); // true
+console.log("" == false); // true
+
+console.log(0 === false); // false, because the types are different
+console.log("" === false); // false, because the types are different
+
