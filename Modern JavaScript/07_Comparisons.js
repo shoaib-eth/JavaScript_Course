@@ -48,3 +48,25 @@ console.log(null == undefined); // true
 console.log(null > 0); // false, because null becomes a number 0 after the numeric conversion
 console.log(null == 0); // false
 console.log(null >= 0); // true
+
+// Summary
+
+console.log(5 > 4); // true
+console.log("apple" > "pineapple"); // false
+console.log("2" > "12"); // true
+console.log(undefined == null); // true
+console.log(undefined === null); // false
+console.log(null == "\n0\n"); // false
+console.log(null === +"\n0\n"); // false
+
+// Solution
+
+// Some of the reasons:
+
+// 1. Obviously, true.
+// 2. Dictionary comparison, hence false. "a" is smaller than "p".
+// 3. Again, dictionary comparison, first char "2" is greater than the first char "1".
+// 4. Values null and undefined equal each other only.
+// 5. Strict equality is strict. Different types from both sides lead to false.
+// 6. Similar to (4), null only equals undefined.
+// 7. Strict equality of different types.
