@@ -38,3 +38,13 @@ console.log("" == false); // true
 console.log(0 === false); // false, because the types are different
 console.log("" === false); // false, because the types are different
 
+// Null vs Undefined
+
+console.log(null === undefined); // false
+console.log(null == undefined); // true
+
+// Strange Result: null vs 0
+
+console.log(null > 0); // false, because null becomes a number 0 after the numeric conversion
+console.log(null == 0); // false
+console.log(null >= 0); // true
