@@ -107,7 +107,7 @@ company == "Netscape" ? alert("Right!") : alert("Wrong.");
 
 let company = prompt("Which company created JavaScript?", "");
 
-if (company == Netscape) {
+if (company == "Netscape") {
   alert("Right");
 } else {
   alert("Wrong");
