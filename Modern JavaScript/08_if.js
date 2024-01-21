@@ -157,3 +157,14 @@ if (number > 0) {
 let result = 20 % 2 == 0 ? "Even" : "Odd";
 alert(result);
 */
+
+// Task - 5 : Rewrite 'if..else' into '?'
+
+let message =
+  Login == "Employee"
+    ? "Hello"
+    : Login == "Director"
+    ? "Greetings"
+    : Login == ""
+    ? "No Login"
+    : "";
