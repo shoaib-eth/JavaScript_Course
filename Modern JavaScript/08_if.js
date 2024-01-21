@@ -64,7 +64,7 @@ let ageTernary2 = ageTernary2 > 18; // without if statement (same as above) (if 
 
 // Example - 6 : Multiple '?'
 
-let age = prompt("age?", 18);
+let age = prompt("age?", "");
 
 let message =
   age < 3
