@@ -42,6 +42,7 @@ if (year3 > 2015) {
 
 // Example - 4 : Conditional Operator '?'
 
+/*
 let accessAllowed;
 let age = prompt("How old are you?", "");
 
@@ -50,3 +51,8 @@ if (age > 18) {
 } else {
   accessAllowed = false;
 }
+*/
+
+// Example - 5 : Terinary Operator '?'
+
+let ageTernary = ageTernary > 18 ? true : false;
