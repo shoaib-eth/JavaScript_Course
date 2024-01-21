@@ -153,5 +153,7 @@ if (number > 0) {
 
 // Task - 4 : Rewrite 'if' into '?'
 
+/*
 let result = 20 % 2 == 0 ? "Even" : "Odd";
 alert(result);
+*/
