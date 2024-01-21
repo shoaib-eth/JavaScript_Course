@@ -83,12 +83,12 @@ alert(message);
 
 let age = prompt("age?", "");
 
-if(age > 3){
-    alert("Hi, baby!");
-}else if(age < 18){
-    alert("Hello!");
-}else if(age < 100){
-    alert("Greetings!");
-}else {
-    alert("What an unusual age!");
+if (age < 3) {
+  alert("Hi, baby!");
+} else if (age < 18) {
+  alert("Hello!");
+} else if (age < 100) {
+  alert("Greetings!");
+} else {
+  alert("What an unusual age!");
 }
