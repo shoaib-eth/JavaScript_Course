@@ -55,7 +55,24 @@ if (age > 18) {
 
 // Example - 5 : Terinary Operator '?'
 
+/*
 let ageTernary = ageTernary > 18 ? true : false;
 alert(ageTernary);
 
 let ageTernary2 = ageTernary2 > 18; // without if statement (same as above) (if ageTernary2 > 18 is true then ageTernary2 = true)
+*/
+
+// Example - 6 : Multiple '?'
+
+let age = prompt("age?", 18);
+
+let message =
+  age < 3
+    ? "Hi, baby!"
+    : age < 18
+    ? "Hello!"
+    : age < 100
+    ? "Greetings!"
+    : "What an unusual age!";
+
+alert(message);
