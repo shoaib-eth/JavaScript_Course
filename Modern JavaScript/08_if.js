@@ -105,10 +105,30 @@ company == "Netscape" ? alert("Right!") : alert("Wrong.");
 
 // By using if-else
 
+/*
 let company = prompt("Which company created JavaScript?", "");
 
 if (company == "Netscape") {
   alert("Right");
 } else {
   alert("Wrong");
+}
+*/
+
+// Tasks
+
+// Task - 1
+
+if ("0") {
+  alert("Hello");
+} // Yes, it will alert because "0" is a string and it is not empty string. So, it is true.
+
+// Task - 2
+
+let name = prompt("What is the “official” name of JavaScript?", "");
+
+if (name == "ECMAScript") {
+  alert("Right!");
+} else {
+  alert("You don’t know? ECMAScript!");
 }
