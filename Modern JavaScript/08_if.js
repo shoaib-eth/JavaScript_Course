@@ -132,3 +132,15 @@ if (name == "ECMAScript") {
 } else {
   alert("You don’t know? ECMAScript!");
 }
+
+// Task - 3 : Show the sign
+
+let number = prompt("Enter a Number", "");
+
+if (number > 0) {
+  alert("1");
+} else if (number < 0) {
+  alert("-1");
+} else {
+  alert("0");
+}
