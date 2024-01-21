@@ -25,6 +25,7 @@ if (year2 == 2015) {
 
 // Example - 3
 
+/*
 let year3 = prompt(
   "In which year was ECMAScript-2015 specification published?",
   ""
@@ -36,4 +37,16 @@ if (year3 > 2015) {
   alert("Too Late...");
 } else {
   alert("Exactly!");
+}
+*/
+
+// Example - 4 : Conditional Operator '?'
+
+let accessAllowed;
+let age = prompt("How old are you?", "");
+
+if (age > 18) {
+  accessAllowed = true;
+} else {
+  accessAllowed = false;
 }
