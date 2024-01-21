@@ -56,3 +56,4 @@ if (age > 18) {
 // Example - 5 : Terinary Operator '?'
 
 let ageTernary = ageTernary > 18 ? true : false;
+alert(ageTernary);
