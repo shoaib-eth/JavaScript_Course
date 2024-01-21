@@ -64,6 +64,7 @@ let ageTernary2 = ageTernary2 > 18; // without if statement (same as above) (if 
 
 // Example - 6 : Multiple '?'
 
+/*
 let age = prompt("age?", "");
 
 let message =
@@ -76,3 +77,18 @@ let message =
     : "What an unusual age!";
 
 alert(message);
+*/
+
+// By using if-else
+
+let age = prompt("age?", "");
+
+if(age > 3){
+    alert("Hi, baby!");
+}else if(age < 18){
+    alert("Hello!");
+}else if(age < 100){
+    alert("Greetings!");
+}else {
+    alert("What an unusual age!");
+}
