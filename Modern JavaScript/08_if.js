@@ -81,6 +81,7 @@ alert(message);
 
 // By using if-else
 
+/*
 let age = prompt("age?", "");
 
 if (age < 3) {
@@ -91,4 +92,23 @@ if (age < 3) {
   alert("Greetings!");
 } else {
   alert("What an unusual age!");
+}
+*/
+
+// Example - 7 : Non-traditional use of '?'
+
+/*
+let company = prompt("Which campany created JavaScript?", "");
+
+company == "Netscape" ? alert("Right!") : alert("Wrong.");
+*/
+
+// By using if-else
+
+let company = prompt("Which company created JavaScript?", "");
+
+if (company == Netscape) {
+  alert("Right");
+} else {
+  alert("Wrong");
 }
