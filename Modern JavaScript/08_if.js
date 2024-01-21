@@ -57,3 +57,5 @@ if (age > 18) {
 
 let ageTernary = ageTernary > 18 ? true : false;
 alert(ageTernary);
+
+let ageTernary2 = ageTernary2 > 18; // without if statement (same as above) (if ageTernary2 > 18 is true then ageTernary2 = true)
