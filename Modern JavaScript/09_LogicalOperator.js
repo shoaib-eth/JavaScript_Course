@@ -28,10 +28,24 @@ if (hour < 10 || hour > 18) {
 }
 */
 
+/*
 let hour = 12;
 let isWeekend = true;
 
 if (hour < 10 || hour > 18 || isWeekend) {
   alert("The office is closed.");
 }
+*/
+
+// && Operator
+
+/*
+alert(true && true); // true
+alert(false && true); // false
+alert(true && false); // false
+alert(false && false); // false
+*/
+
+// && Operator with non-boolean values
+
 
