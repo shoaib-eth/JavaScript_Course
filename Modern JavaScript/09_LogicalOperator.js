@@ -156,16 +156,11 @@ if (age < 14 || age > 90) {
 
 // Task 9
 
-/*
+if (-1 || 0) alert("first"); // first
 
+if (-1 && 0) alert("second"); // nothing
 
-if (-1 || 0) alert( 'first' ); // first
-
-if (-1 && 0) alert( 'second' ); // nothing
-
-if (null || -1 && 1) alert( 'third' ); // third
-
-*/
+if (null || (-1 && 1)) alert("third"); // third
 
 // Task 10
 
