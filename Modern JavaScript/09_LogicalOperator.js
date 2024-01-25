@@ -48,9 +48,13 @@ alert(false && false); // false
 
 // An example with if
 
+/*
 let hour = 12;
 let minute = 30;
 
 if (hour == 12 && minute == 30) {
   alert("The time is 12:30");
 }
+*/
+
+// NOT `!` Operator
