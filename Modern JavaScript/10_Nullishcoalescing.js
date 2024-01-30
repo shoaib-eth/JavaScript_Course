@@ -1,3 +1,5 @@
+// Comparison with ??
+
 // Example - 1
 /*
 let user;
@@ -13,8 +15,19 @@ alert(user ?? "Anonymous"); // John
 */
 
 // Example - 3
+/*
 let firstName = null;
 let lastName = null;
 let nickName = "SuperCoder";
 
 alert(firstName ?? lastName ?? nickName ?? "Anonymous"); // SuperCoder
+*/
+
+// Comparison with ||
+
+// Example - 1
+let firstName = null;
+let lastName = null;
+let nickName = "SuperCoder";
+
+alert(firstName || lastName || nickName || "Anonymous"); // SuperCoder
