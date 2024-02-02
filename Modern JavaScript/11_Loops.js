@@ -16,3 +16,12 @@ while (i1) {
   alert(i1);
   i1--;
 }
+
+// do - while loop
+
+let i3 = 0;
+
+do {
+  alert(i3);
+  i++;
+} while (i3 < 3);
