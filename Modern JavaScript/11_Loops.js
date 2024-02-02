@@ -25,3 +25,9 @@ do {
   alert(i3);
   i++;
 } while (i3 < 3);
+
+// for loop
+
+for (let i = 0; i < 3; i++) {
+  alert(i);
+}
