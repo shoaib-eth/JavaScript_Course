@@ -31,3 +31,19 @@ do {
 for (let i = 0; i < 3; i++) {
   alert(i);
 }
+
+// Breaking the loop
+
+let sum = 0;
+
+while (true) {
+  let value = +prompt("Enter a number", "");
+
+  if (!value) break;
+
+  sum += value;
+}
+
+alert("Sum: " + sum);
+
+// Continue to the next iteration
