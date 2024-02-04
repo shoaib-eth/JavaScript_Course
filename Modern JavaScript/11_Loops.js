@@ -57,10 +57,8 @@ for (let i = 0; i < 10; i++) {
 // Labels for break/continue
 
 outer: for (let i = 0; i < 3; i++) {
-
   for (let j = 0; j < 3; j++) {
-
-    let input = prompt(`Value at coords (${i},${j})`, '');
+    let input = prompt(`Value at coords (${i},${j})`, "");
 
     // if an empty string or canceled, then break out of both loops
     if (!input) break outer; // (*)
@@ -68,4 +66,4 @@ outer: for (let i = 0; i < 3; i++) {
     // do something with the value...
   }
 }
-alert('Done!');
+alert("Done!");
