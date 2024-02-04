@@ -47,3 +47,14 @@ while (true) {
 alert("Sum: " + sum);
 
 // Continue to the next iteration
+
+for (let i = 0; i < 10; i++) {
+
+
+
+  if (i % 2 == 0) continue;
+
+  alert(i);
+}
+
+// Labels for break/continue
