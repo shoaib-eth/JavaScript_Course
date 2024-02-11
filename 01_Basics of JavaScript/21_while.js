@@ -64,3 +64,28 @@ while (count1 <= 5) {
   console.log(`Count: ${count1}`);
   count1++;
 }
+
+// Example - > 8
+
+let x1 = 3;
+
+while (x1 >= 0) {
+  console.log(`x: ${x1}`);
+  x1--;
+}
+
+// Example - > 9
+
+let biggest1 = 0;
+
+let numbers2 = [5, 10, 2, 8, 3];
+
+while (numbers2.length > 0) {
+  let currentNumber = numbers2.pop();
+
+  if (currentNumber > biggest1) {
+    biggest1 = currentNumber;
+  }
+}
+
+console.log(`The biggest number is ${biggest1}`);
