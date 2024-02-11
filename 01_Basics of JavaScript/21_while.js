@@ -106,7 +106,6 @@ while (numbers3.length > 0) {
 
 console.log(`The smallest number is ${smallest1}`);
 
-
 // Example - > 11
 
 let i2 = 0;
@@ -116,7 +115,6 @@ while (i2 <= 10) {
   i2++;
 }
 
-
 // Example - > 12
 
 let count2 = 1;
@@ -125,4 +123,3 @@ while (count2 <= 5) {
   console.log(`Count: ${count2}`);
   count2++;
 }
-
