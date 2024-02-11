@@ -115,3 +115,14 @@ while (i2 <= 10) {
   console.log(`The value of i is ${i2}`);
   i2++;
 }
+
+
+// Example - > 12
+
+let count2 = 1;
+
+while (count2 <= 5) {
+  console.log(`Count: ${count2}`);
+  count2++;
+}
+
