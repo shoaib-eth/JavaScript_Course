@@ -105,3 +105,13 @@ while (numbers3.length > 0) {
 }
 
 console.log(`The smallest number is ${smallest1}`);
+
+
+// Example - > 11
+
+let i2 = 0;
+
+while (i2 <= 10) {
+  console.log(`The value of i is ${i2}`);
+  i2++;
+}
