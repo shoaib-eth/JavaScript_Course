@@ -60,3 +60,12 @@ switch (day) {
     console.log("Invalid Day");
 }
 // Output: Wednesday
+
+// Using Switch Statement with Ternary Operator
+
+let day1 = 3;
+
+let dayName = day1 === 0 ? "Sunday" : day1 === 1 ? "Monday" : day1 === 2 ? "Tuesday" : day1 === 3 ? "Wednesday" : day1 === 4 ? "Thursday" : day1 === 5 ? "Friday" : day1 === 6 ? "Saturday" : "Invalid Day";
+
+console.log(dayName);
+// Output: Wednesday
