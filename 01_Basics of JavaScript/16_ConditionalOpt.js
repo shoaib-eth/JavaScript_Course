@@ -29,3 +29,34 @@ console.log(status);
 let marks = 87;
 let result = marks >= 90 ? "A" : marks >= 80 ? "B" : marks >= 50 ? "C" : "F";
 console.log(result);
+
+// Switch Statement
+
+let day = 3;
+
+switch (day) {
+  case 0:
+    console.log("Sunday");
+    break;
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  default:
+    console.log("Invalid Day");
+}
+// Output: Wednesday
