@@ -89,7 +89,22 @@ console.log(dayName);
 
 let day2 = 3;
 
-let dayName1 = day2 === 0 ? `Sunday` : day2 === 1 ? `Monday` : day2 === 2 ? `Tuesday` : day2 === 3 ? `Wednesday` : day2 === 4 ? `Thursday` : day2 === 5 ? `Friday` : day2 === 6 ? `Saturday` : `Invalid Day`;
+let dayName1 =
+  day2 === 0
+    ? `Sunday`
+    : day2 === 1
+    ? `Monday`
+    : day2 === 2
+    ? `Tuesday`
+    : day2 === 3
+    ? `Wednesday`
+    : day2 === 4
+    ? `Thursday`
+    : day2 === 5
+    ? `Friday`
+    : day2 === 6
+    ? `Saturday`
+    : `Invalid Day`;
 
 console.log(dayName1);
 
