@@ -1,13 +1,14 @@
-// Example - switch() statement without break
-let a = 2 + 2;
+// Example of browser detection using switch statement
 
-switch (a) {
-  case 3:
-    alert("Too Small");
-  case 4:
-    alert("Exactly!");
-  case 5:
-    alert("Too Large");
-  case 6:
-    alert("I don't know such value");
+if (browser == "Brave") {
+  alert("You've got the Brave browser!");
+} else if (
+  browser == "Edge" ||
+  browser == "Chrome" ||
+  browser == "Safari" ||
+  browser == "FireFox"
+) {
+  alert("Okay we support these browsers too");
+} else {
+  alert("We hope that this page looks ok!");
 }
