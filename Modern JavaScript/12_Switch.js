@@ -1,14 +1,19 @@
-// Example of browser detection using switch statement
+let a = +prompt("Enter the value between 0 and 3", 0);
 
-if (browser == "Brave") {
-  alert("You've got the Brave browser!");
-} else if (
-  browser == "Edge" ||
-  browser == "Chrome" ||
-  browser == "Safari" ||
-  browser == "FireFox"
-) {
-  alert("Okay we support these browsers too");
-} else {
-  alert("We hope that this page looks ok!");
+switch (a) {
+  case 0:
+    alert("You entered 0");
+    break;
+  case 1:
+    alert("You entered 1");
+    break;
+  case 2:
+    alert("You entered 2");
+    break;
+  case 3:
+    alert("You entered 3");
+    break;
+  default:
+    alert("You entered a wrong value");
+    break;
 }
