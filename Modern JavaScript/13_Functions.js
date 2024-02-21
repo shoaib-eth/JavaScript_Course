@@ -4,9 +4,9 @@
 let userName = "Shoaib";
 
 function sayHello() {
-  let message = "Hello, " + userName;
+  let message = "Hello";
 
-  alert(message);
+  alert(message + ", " + userName);
 }
 
 sayHello(); // Hello, Shoaib
