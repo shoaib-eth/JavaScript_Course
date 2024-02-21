@@ -1,11 +1,12 @@
-// Example 2 - Local Variables inside a function
+// Outer Variable
+// A function can access an outer variable as well, for example:
 
-function showMessage() {
-  let message = "Hello, I'm JavaScript!"; // Local variable
+let userName = "Shoaib";
+
+function sayHello() {
+  let message = "Hello, " + userName;
 
   alert(message);
 }
 
-showMessage(); // Hello, I'm JavaScript!
-
-alert(message); // Error! The variable is local to the function
+sayHello(); // Hello, Shoaib
