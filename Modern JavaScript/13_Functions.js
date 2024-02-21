@@ -1,7 +1,11 @@
-// Example 1 - Function Declaration
+// Example 2 - Local Variables inside a function
 
-function sayHello() {
-  alert("Hello");
+function showMessage() {
+  let message = "Hello, I'm JavaScript!"; // Local variable
+
+  alert(message);
 }
 
-sayHello();
+showMessage(); // Hello, I'm JavaScript!
+
+alert(message); // Error! The variable is local to the function
