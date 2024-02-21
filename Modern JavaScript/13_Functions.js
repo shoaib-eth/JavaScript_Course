@@ -1,18 +1,13 @@
-// The function has full access to the outer variable. It can modify it as well.
+// Parameters:
 
-// For instance:
-
-let userName = "John";
-
-function showMessage() {
-  userName = "Bob"; // (1) changed the outer variable
-
-  let message = "Hello, " + userName;
-  alert(message);
+function showMessage(from, text) {
+  alert(from + " : " + text);
 }
 
-alert(userName); // John before the function call
-
-showMessage();
-
-alert(userName); // Bob, the value was modified by the function
+showMessage("Shoaib", "Hello");
+showMessage("Shoaib", "How are you?");
+showMessage("Shoaib", "What are you doing?");
+showMessage("Shoaib", "Where are you?");
+showMessage("Shoaib", "Why are you not replying?");
+showMessage("Shoaib", "I am waiting for your reply");
+showMessage("Shoaib", "Please reply");
