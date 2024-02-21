@@ -1,12 +1,18 @@
-// Outer Variable
-// A function can access an outer variable as well, for example:
+// The function has full access to the outer variable. It can modify it as well.
 
-let userName = prompt("Enter your name: ");
+// For instance:
 
-function sayHello() {
-  let message = "Hello";
+let userName = "John";
 
-  alert(message + ", " + userName);
+function showMessage() {
+  userName = "Bob"; // (1) changed the outer variable
+
+  let message = "Hello, " + userName;
+  alert(message);
 }
 
-sayHello(); // Hello, Shoaib
+alert(userName); // John before the function call
+
+showMessage();
+
+alert(userName); // Bob, the value was modified by the function
