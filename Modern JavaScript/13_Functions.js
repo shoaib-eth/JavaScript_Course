@@ -1,9 +1,7 @@
-// Parameters:
+// Default export:
 
-function showMessage(from, text) {
-  alert(from + " : " + text);
+function sayHello(name, message = `Hello`) {
+  alert(`${message}, ${name}!`);
 }
 
-showMessage(prompt("Enter your name"), prompt("Enter your message"));
-
-// Parameter with prompt function is used to take input from user and then it is passed to the function as an argument.
+sayHello(prompt(`Enter your name`));
