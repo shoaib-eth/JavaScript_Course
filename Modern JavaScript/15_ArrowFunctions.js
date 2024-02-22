@@ -1,4 +1,5 @@
-let sum = (a, b) => a + b;
+// Arrow function with only one argument
 
-alert(sum(1, 2)); // 3
-// The arrow function is a shorter form of: let sum = function(a, b) { return a + b; }; 
+let double = (n) => n * 2;
+
+alert(double(3)); // 6
