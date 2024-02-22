@@ -1,17 +1,17 @@
-// Callback function
-function ask(question, yes, no) {
-  if (confirm(question)) yes();
-  else no();
+// Function Expression vs Function Declaration
+
+let age = prompt("What is your age?", 18);
+
+let welcome;
+
+if (age >= 18) {
+  welcome = function () {
+    alert("Hello!");
+  };
+} else {
+  welcome = function () {
+    alert("Hi!");
+  };
 }
 
-ask(
-  "Do you agree?",
-  function showOk() {
-    alert("You agreed.");
-  },
-  function showCancel() {
-    alert("You canceled the execution.");
-  }
-);
-// Do you agree? -> ok -> You agreed.
-// Do you agree? -> cancel -> You canceled the execution.
+welcome(); // ok now
