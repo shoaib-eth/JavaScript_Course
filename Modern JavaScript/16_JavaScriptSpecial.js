@@ -1,3 +1,5 @@
-// Statements are delimited with a semicolon:
+// Variables are dynamically typed. They can store any value:
 
-alert("Hello"); alert("World");
+let x = 10;
+x = "Hello World";
+alert(x); // Hello World
