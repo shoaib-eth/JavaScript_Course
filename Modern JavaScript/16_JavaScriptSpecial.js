@@ -1,5 +1,5 @@
-// Variables are dynamically typed. They can store any value:
+let userName = prompt("Your name?", "Alice");
+let isTeaWanted = confirm("Do you want some tea?");
 
-let x = 10;
-x = "Hello World";
-alert(x); // Hello World
+alert("Visitor: " + userName); // Alice
+alert("Tea wanted: " + isTeaWanted); // true
