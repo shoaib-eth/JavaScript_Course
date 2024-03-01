@@ -25,3 +25,9 @@ console.log("Before Length without trim() : ", hello.length);
 let trimmedString = hello.trim();
 console.log(trimmedString);
 console.log("After using trim() method : ", trimmedString.length);
+
+// split() method
+let myString2 = "Hello World!";
+
+let result2 = myString2.split(" ");
+console.log(result2); // ["Hello", "World!"]
