@@ -6,3 +6,9 @@ console.log(fruits.length); // 2
 
 let first = fruits[0]; // Apple
 let last = fruits[fruits.length - 1]; // Banana
+
+// Loop over an Array
+
+fruits.forEach(function (item, index, array) {
+  console.log(item, index);
+});
