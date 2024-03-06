@@ -21,3 +21,7 @@ let newLength = fruits.push("Orange"); // ["Apple", "Banana", "Orange"]
 
 let last1 = fruits.pop(); // remove Orange (from the end) ["Apple", "Banana"]
 
+// Remove an item from the beginning of an Array
+
+let first1 = fruits.shift(); // remove Apple from the front ["Banana"]
+
