@@ -28,3 +28,7 @@ let first1 = fruits.shift(); // remove Apple from the front ["Banana"]
 // Add an item to the beginning of an Array
 
 let newLength1 = fruits.unshift("Strawberry"); // add to the front ["Strawberry", "Banana"]
+
+// Find the index of an item in the Array
+
+fruits.push("Mango");  // ["Strawberry", "Banana", "Mango"] 
