@@ -39,3 +39,12 @@ let pos = fruits.indexOf("Banana"); // 1
 
 
 let removedItem = fruits.splice(pos, 1); // this is how to remove an item
+
+// Remove items from an index position
+
+let vegetables = ["Cabbage", "Turnip", "Radish", "Carrot"];     // ["Cabbage", "Turnip", "Radish", "Carrot"] 
+
+let pos1 = 1;
+let n = 2;
+
+let removedItems = vegetables.splice(pos1, n); // this is how to remove items, n defines the number of items to be removed
