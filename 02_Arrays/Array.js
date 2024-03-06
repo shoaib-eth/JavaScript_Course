@@ -32,3 +32,10 @@ let newLength1 = fruits.unshift("Strawberry"); // add to the front ["Strawberry"
 // Find the index of an item in the Array
 
 fruits.push("Mango");  // ["Strawberry", "Banana", "Mango"] 
+
+let pos = fruits.indexOf("Banana"); // 1
+
+// Remove an item by index position
+
+
+let removedItem = fruits.splice(pos, 1); // this is how to remove an item
