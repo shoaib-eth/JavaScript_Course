@@ -48,3 +48,11 @@ let pos1 = 1;
 let n = 2;
 
 let removedItems = vegetables.splice(pos1, n); // this is how to remove items, n defines the number of items to be removed
+
+// Copy an Array
+
+let shallowCopy = fruits.slice(); // this is how to make a copy
+
+console.log(fruits); // ["Strawberry", "Mango"]
+console.log(removedItems); // ["Turnip", "Radish"]
+
