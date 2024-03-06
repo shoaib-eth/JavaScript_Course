@@ -12,3 +12,7 @@ let last = fruits[fruits.length - 1]; // Banana
 fruits.forEach(function (item, index, array) {
   console.log(item, index);
 });
+
+// Add an item to the end of an Array
+
+let newLength = fruits.push("Orange"); // ["Apple", "Banana", "Orange"]
