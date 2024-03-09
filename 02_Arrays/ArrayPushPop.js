@@ -15,3 +15,11 @@ const fruits2 = ["apple", "banana", "orange"];
 fruits2.shift();
 console.log(fruits2); // Output: ['banana', 'orange']
 
+// Example 4
+
+const fruits3 = ["apple", "banana", "orange"];
+fruits3.unshift("kiwi");
+console.log(fruits3); // Output: ['kiwi', 'apple', 'banana', 'orange']
+
+
+
