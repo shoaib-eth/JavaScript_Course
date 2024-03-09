@@ -36,4 +36,13 @@ const removedItem = fruits5.splice(1, 1);
 console.log(fruits5); // Output: ['apple', 'orange']
 
 
+// Example 7
+
+const vegetables = ["cabbage", "turnip", "radish", "carrot"];
+const pos1 = 1;
+const n = 2;
+const removedItems = vegetables.splice(pos1, n); 
+console.log(vegetables); // Output: ['cabbage', 'carrot']
+
+
 
