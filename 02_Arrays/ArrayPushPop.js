@@ -29,4 +29,11 @@ const pos = fruits4.indexOf("banana");
 console.log(pos); // Output: 1
 
 
+// Example 6
+
+const fruits5 = ["apple", "banana", "orange"];
+const removedItem = fruits5.splice(1, 1);
+console.log(fruits5); // Output: ['apple', 'orange']
+
+
 
