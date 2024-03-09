@@ -22,4 +22,11 @@ fruits3.unshift("kiwi");
 console.log(fruits3); // Output: ['kiwi', 'apple', 'banana', 'orange']
 
 
+// Example 5
+
+const fruits4 = ["apple", "banana", "orange"];
+const pos = fruits4.indexOf("banana");
+console.log(pos); // Output: 1
+
+
 
