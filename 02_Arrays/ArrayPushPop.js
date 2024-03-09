@@ -57,3 +57,11 @@ console.log(shallowCopy); // Output: ['apple', 'banana', 'orange']
 const fruits7 = ["apple", "banana", "orange"];
 const shallowCopy1 = fruits7.slice(1, 3);
 console.log(shallowCopy1); // Output: ['banana', 'orange']
+
+// Example 10
+
+const fruits8 = ["apple", "banana", "orange"];
+const shallowCopy2 = fruits8.slice(1);
+console.log(shallowCopy2); // Output: ['banana', 'orange']
+
+
