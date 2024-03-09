@@ -45,4 +45,10 @@ const removedItems = vegetables.splice(pos1, n);
 console.log(vegetables); // Output: ['cabbage', 'carrot']
 
 
+// Example 8
+
+const fruits6 = ["apple", "banana", "orange"];
+const shallowCopy = fruits6.slice();
+console.log(shallowCopy); // Output: ['apple', 'banana', 'orange']
+
 
