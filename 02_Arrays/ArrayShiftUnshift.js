@@ -18,3 +18,11 @@ var arr = [1, 2, 3, 4, 5];
 arr.unshift(-2, -1, 0); // 8
 
 console.log(arr); // [-2, -1, 0, 1, 2, 3, 4, 5]
+
+// Example 4
+
+var arr = [1, 2, 3, 4, 5];
+arr.shift();
+arr.unshift(0); // 5
+
+console.log(arr); // [0, 2, 3, 4, 5]
