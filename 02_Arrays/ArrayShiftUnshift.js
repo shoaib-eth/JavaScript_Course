@@ -26,3 +26,10 @@ arr.shift();
 arr.unshift(0); // 5
 
 console.log(arr); // [0, 2, 3, 4, 5]
+
+// Example 5
+
+var arr = [1, 2, 3, 4, 5];
+arr.shift();
+
+console.log(arr); // [2, 3, 4, 5]
