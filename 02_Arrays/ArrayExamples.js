@@ -61,3 +61,11 @@ let arr2 = new Array(5).fill(0);
 
 // Print the array
 console.log(arr2); // Output: [0, 0, 0, 0, 0]
+
+// Example 9
+
+// Create an array with a length of 5 and fill it with a value
+let arr3 = new Array(5).fill(1);
+
+// Print the array
+console.log(arr3); // Output: [1, 1, 1, 1, 1]
