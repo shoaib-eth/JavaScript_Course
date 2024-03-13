@@ -101,3 +101,11 @@ let arr7 = new Array(5).fill([1, 2]);
 
 // Print the array
 console.log(arr7); // Output: [[1, 2], [1, 2], [1, 2], [1, 2], [1, 2]]
+
+// Example 14
+
+// Create an array with a length of 5 and fill it with a value
+let arr8 = new Array(5).fill([1, 2, 3]);
+
+// Print the array
+console.log(arr8); // Output: [[ 
