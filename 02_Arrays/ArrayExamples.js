@@ -85,3 +85,11 @@ let arr5 = new Array(5).fill({ name: 'John' });
 
 // Print the array
 console.log(arr5); // Output: [{ name: 'John' }, { name: 'John' }, { name: 'John' }, { name: 'John' }, { name: 'John' }]
+
+// Example 12
+
+// Create an array with a length of 5 and fill it with a value
+let arr6 = new Array(5).fill([]);
+
+// Print the array
+console.log(arr6); // Output: [[], [], [], [], []]
