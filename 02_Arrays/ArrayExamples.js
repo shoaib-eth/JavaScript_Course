@@ -109,3 +109,11 @@ let arr8 = new Array(5).fill([1, 2, 3]);
 
 // Print the array
 console.log(arr8); // Output: [[ 
+
+// Example 15
+
+// Create an array with a length of 5 and fill it with a value
+let arr9 = new Array(5).fill([1, 2, 3, 4]);
+
+// Print the array
+console.log(arr9); // Output: [[ 
