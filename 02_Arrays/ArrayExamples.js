@@ -77,3 +77,11 @@ let arr4 = new Array(5).fill('a');
 
 // Print the array
 console.log(arr4); // Output: ['a', 'a', 'a', 'a', 'a']
+
+// Example 11
+
+// Create an array with a length of 5 and fill it with a value
+let arr5 = new Array(5).fill({ name: 'John' });
+
+// Print the array
+console.log(arr5); // Output: [{ name: 'John' }, { name: 'John' }, { name: 'John' }, { name: 'John' }, { name: 'John' }]
