@@ -29,3 +29,11 @@ let arr = [[1, 2], [3, 4], [5, 6]];
 
 // Print the array
 console.log(arr); // Output: [[1, 2], [3, 4], [5, 6]]
+
+// Example 5
+
+// Create an array of objects
+let people = [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }];
+
+// Print the array
+console.log(people); // Output: [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }]
