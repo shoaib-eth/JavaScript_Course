@@ -45,3 +45,11 @@ let empty = [];
 
 // Print the array
 console.log(empty); // Output: []
+
+// Example 7
+
+// Create an array with a length of 5
+let arr1 = new Array(5);
+
+// Print the array
+console.log(arr); // Output: [ <5 empty items> ]
