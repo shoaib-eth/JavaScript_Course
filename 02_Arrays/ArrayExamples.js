@@ -21,3 +21,11 @@ let random = [1, 'red', 3, 'blue'];
 
 // Print the array
 console.log(random); // Output: [1, 'red', 3, 'blue']
+
+// Example 4
+
+// Create an array of arrays
+let arr = [[1, 2], [3, 4], [5, 6]];
+
+// Print the array
+console.log(arr); // Output: [[1, 2], [3, 4], [5, 6]]
