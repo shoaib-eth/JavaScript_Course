@@ -9,7 +9,7 @@ console.log(numbers); // Output: [1, 2, 3, 4, 5]
 // Example 2
 
 // Create an array of strings
-let colors = ['red', 'yellow', 'green', 'blue'];
+let colors = ["red", "yellow", "green", "blue"];
 
 // Print the array
 console.log(colors); // Output: ['red', 'yellow', 'green', 'blue']
@@ -17,7 +17,7 @@ console.log(colors); // Output: ['red', 'yellow', 'green', 'blue']
 // Example 3
 
 // Create an array of mixed data types
-let random = [1, 'red', 3, 'blue'];
+let random = [1, "red", 3, "blue"];
 
 // Print the array
 console.log(random); // Output: [1, 'red', 3, 'blue']
@@ -25,7 +25,11 @@ console.log(random); // Output: [1, 'red', 3, 'blue']
 // Example 4
 
 // Create an array of arrays
-let arr = [[1, 2], [3, 4], [5, 6]];
+let arr = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
 
 // Print the array
 console.log(arr); // Output: [[1, 2], [3, 4], [5, 6]]
@@ -33,7 +37,10 @@ console.log(arr); // Output: [[1, 2], [3, 4], [5, 6]]
 // Example 5
 
 // Create an array of objects
-let people = [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }];
+let people = [
+  { name: "John", age: 30 },
+  { name: "Jane", age: 25 },
+];
 
 // Print the array
 console.log(people); // Output: [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }]
@@ -73,7 +80,7 @@ console.log(arr3); // Output: [1, 1, 1, 1, 1]
 // Example 10
 
 // Create an array with a length of 5 and fill it with a value
-let arr4 = new Array(5).fill('a');
+let arr4 = new Array(5).fill("a");
 
 // Print the array
 console.log(arr4); // Output: ['a', 'a', 'a', 'a', 'a']
@@ -81,7 +88,7 @@ console.log(arr4); // Output: ['a', 'a', 'a', 'a', 'a']
 // Example 11
 
 // Create an array with a length of 5 and fill it with a value
-let arr5 = new Array(5).fill({ name: 'John' });
+let arr5 = new Array(5).fill({ name: "John" });
 
 // Print the array
 console.log(arr5); // Output: [{ name: 'John' }, { name: 'John' }, { name: 'John' }, { name: 'John' }, { name: 'John' }]
@@ -108,7 +115,7 @@ console.log(arr7); // Output: [[1, 2], [1, 2], [1, 2], [1, 2], [1, 2]]
 let arr8 = new Array(5).fill([1, 2, 3]);
 
 // Print the array
-console.log(arr8); // Output: [[ 
+console.log(arr8); // Output: [[
 
 // Example 15
 
@@ -116,4 +123,4 @@ console.log(arr8); // Output: [[
 let arr9 = new Array(5).fill([1, 2, 3, 4]);
 
 // Print the array
-console.log(arr9); // Output: [[ 
+console.log(arr9); // Output: [[
