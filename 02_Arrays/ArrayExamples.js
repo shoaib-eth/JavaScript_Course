@@ -93,3 +93,11 @@ let arr6 = new Array(5).fill([]);
 
 // Print the array
 console.log(arr6); // Output: [[], [], [], [], []]
+
+// Example 13
+
+// Create an array with a length of 5 and fill it with a value
+let arr7 = new Array(5).fill([1, 2]);
+
+// Print the array
+console.log(arr7); // Output: [[1, 2], [1, 2], [1, 2], [1, 2], [1, 2]]
