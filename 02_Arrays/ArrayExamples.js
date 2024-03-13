@@ -53,3 +53,11 @@ let arr1 = new Array(5);
 
 // Print the array
 console.log(arr); // Output: [ <5 empty items> ]
+
+// Example 8
+
+// Create an array with a length of 5 and fill it with a value
+let arr2 = new Array(5).fill(0);
+
+// Print the array
+console.log(arr2); // Output: [0, 0, 0, 0, 0]
