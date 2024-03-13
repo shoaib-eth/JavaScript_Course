@@ -69,3 +69,11 @@ let arr3 = new Array(5).fill(1);
 
 // Print the array
 console.log(arr3); // Output: [1, 1, 1, 1, 1]
+
+// Example 10
+
+// Create an array with a length of 5 and fill it with a value
+let arr4 = new Array(5).fill('a');
+
+// Print the array
+console.log(arr4); // Output: ['a', 'a', 'a', 'a', 'a']
