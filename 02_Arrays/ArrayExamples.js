@@ -37,3 +37,11 @@ let people = [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }];
 
 // Print the array
 console.log(people); // Output: [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }]
+
+// Example 6
+
+// Create an empty array
+let empty = [];
+
+// Print the array
+console.log(empty); // Output: []
