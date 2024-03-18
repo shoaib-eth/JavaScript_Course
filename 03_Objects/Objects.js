@@ -10,7 +10,7 @@ var person = {
 
 // Display some data from the object:
 document.getElementById("demo").innerHTML =
-  person.firstName + " is " + person.age + " years old.";
+  person.firstName + " is " + person.age + " years old."; // John is 50 years old.
 
 // Example 2
 
@@ -30,4 +30,4 @@ person.national;
 
 // Display some data from the object:
 document.getElementById("demo").innerHTML =
-  person.firstName + " is " + person.age + " years old.";
+  person.firstName + " is " + person.age + " years old.";  // John is 40 years old. 
