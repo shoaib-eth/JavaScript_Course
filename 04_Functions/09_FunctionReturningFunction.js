@@ -41,3 +41,17 @@ var increment = createCounter();
 console.log(increment());  // 1
 console.log(increment());  // 2
 console.log(increment());  // 3
+
+// Example - > 4
+
+function createCounter() {
+  let counter = 0;
+  return function () {
+    return ++counter;
+  };
+}
+
+var increment = createCounter();
+console.log(increment());  // 1
+console.log(increment());  // 2
+console.log(increment());  // 3
