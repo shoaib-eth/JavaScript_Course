@@ -27,3 +27,17 @@ console.log(hello("Shoaib"));
 console.log(goodBye("Sarfaraz"));
 // Output - > Hello Shoaib
 //            Good Bye Sarfaraz
+
+// Example - > 3
+
+function createCounter() {
+  let counter = 0;
+  return function () {
+    return ++counter;
+  };
+}
+
+var increment = createCounter();
+console.log(increment());  // 1
+console.log(increment());  // 2
+console.log(increment());  // 3
