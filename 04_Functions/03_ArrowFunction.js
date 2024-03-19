@@ -32,3 +32,9 @@ createPerson("John", 21);
 const hello = () => console.log("Hello World!");
 
 hello();
+
+// Arrow function with multiple parameters
+
+const addNumbers = (num1, num2) => console.log(num1 + num2);
+
+addNumbers(5, 10); // Output - > 15
