@@ -38,3 +38,20 @@ hello();
 const addNumbers = (num1, num2) => console.log(num1 + num2);
 
 addNumbers(5, 10); // Output - > 15
+
+
+// Arrow function with a single parameter
+
+const myFunction = (callback) => {
+  console.log("The main function was called");
+  callback();
+}
+
+const myCallbackFunction = () => {
+  console.log("This callback function was called");
+}
+
+myFunction(myCallbackFunction);
+
+// output - > The main function was called
+//            This callback function was called
