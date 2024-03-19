@@ -20,3 +20,13 @@ function join(saperator, ...strings) {
 console.log(join("-", "x", "y", "z"));
 console.log(join("/", "18", "08", "2023"));
 console.log(join(":", "10", "15", "05"));
+
+// Example - > 3
+
+function multiply(multiplier, ...numbers) {
+  return numbers.map((number) => multiplier * number);
+}
+
+console.log(multiply(2, 1, 2, 3)); // Output - > [2, 4, 6]
+console.log(multiply(3, 4, 5, 6)); // Output - > [12, 15, 18]
+console.log(multiply(4, 7, 8, 9)); // Output - > [28, 32, 36]
