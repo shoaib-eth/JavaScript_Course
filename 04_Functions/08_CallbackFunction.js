@@ -24,3 +24,19 @@ function myFunction(callback) {
 myFunction(myCallbackFunction);
 // output - > The main function was called
 //            CallbackFunction.js:15 This callback function was called
+
+// Example - > 3    
+
+function myCallbackFunction() {
+  console.log("This callback function was called");
+}
+
+function myFunction(callback) {
+  console.log("The main function was called");
+  callback();
+}
+
+myFunction(myCallbackFunction);
+
+// output - > The main function was called
+//            CallbackFunction.js:15 This callback function was called
