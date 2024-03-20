@@ -61,5 +61,14 @@ console.log(divide(1, 2, 3)); // Output - > 0.16666666666666666
 console.log(divide(1, 2, 3, 4, 5)); // Output - > 0.008333333333333333
 console.log(divide(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output - > 2.7557319223985893e-7
 
+// Example - > 7
+
+function multiplyAndAdd(multiplier, ...numbers) {
+  return numbers.map((number) => multiplier * number).reduce((a, b) => a + b);
+}
+
+console.log(multiplyAndAdd(2, 1, 2, 3)); // Output - > 12
+console.log(multiplyAndAdd(3, 4, 5, 6)); // Output - > 63
+console.log(multiplyAndAdd(4, 7, 8, 9)); // Output - > 116
 
 
