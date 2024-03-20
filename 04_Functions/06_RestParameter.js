@@ -91,3 +91,13 @@ function multiplyAndDivide(multiplier, ...numbers) {
 console.log(multiplyAndDivide(2, 1, 2, 3)); // Output - > 0.3333333333333333
 console.log(multiplyAndDivide(3, 4, 5, 6)); // Output - > 0.2
 console.log(multiplyAndDivide(4, 7, 8, 9)); // Output - > 0.3888888888888889
+
+// Example - > 10
+
+function addAndSubtract(...numbers) {
+  return numbers.reduce((a, b) => a + b) - numbers.reduce((a, b) => a - b);
+}
+
+console.log(addAndSubtract(1, 2, 3)); // Output - > 0
+console.log(addAndSubtract(1, 2, 3, 4, 5)); // Output - > -9
+console.log(addAndSubtract(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output - > -45
