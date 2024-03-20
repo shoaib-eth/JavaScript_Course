@@ -82,4 +82,12 @@ console.log(multiplyAndSubtract(2, 1, 2, 3)); // Output - > -8
 console.log(multiplyAndSubtract(3, 4, 5, 6)); // Output - > -33
 console.log(multiplyAndSubtract(4, 7, 8, 9)); // Output - > -68
 
+// Example - > 9
 
+function multiplyAndDivide(multiplier, ...numbers) {
+  return numbers.map((number) => multiplier * number).reduce((a, b) => a / b);
+}
+
+console.log(multiplyAndDivide(2, 1, 2, 3)); // Output - > 0.3333333333333333
+console.log(multiplyAndDivide(3, 4, 5, 6)); // Output - > 0.2
+console.log(multiplyAndDivide(4, 7, 8, 9)); // Output - > 0.3888888888888889
