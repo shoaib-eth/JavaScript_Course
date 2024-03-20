@@ -51,4 +51,15 @@ console.log(subtract(1, 2, 3)); // Output - > -4
 console.log(subtract(1, 2, 3, 4, 5)); // Output - > -13
 console.log(subtract(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output - > -53
 
+// Example - > 6
+
+function divide(...numbers) {
+  return numbers.reduce((a, b) => a / b);
+}
+
+console.log(divide(1, 2, 3)); // Output - > 0.16666666666666666
+console.log(divide(1, 2, 3, 4, 5)); // Output - > 0.008333333333333333
+console.log(divide(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output - > 2.7557319223985893e-7
+
+
 
