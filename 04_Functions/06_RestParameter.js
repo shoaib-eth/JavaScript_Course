@@ -111,3 +111,13 @@ function addAndDivide(...numbers) {
 console.log(addAndDivide(1, 2, 3)); // Output - > 6
 console.log(addAndDivide(1, 2, 3, 4, 5)); // Output - > 15
 console.log(addAndDivide(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output - > 55
+
+// Example - > 12
+
+function subtractAndDivide(...numbers) {
+  return numbers.reduce((a, b) => a - b) / numbers.reduce((a, b) => a / b);
+}
+
+console.log(subtractAndDivide(1, 2, 3)); // Output - > -0.5
+console.log(subtractAndDivide(1, 2, 3, 4, 5)); // Output - > -1.5
+console.log(subtractAndDivide(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output - > -5.5
