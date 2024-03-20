@@ -30,3 +30,14 @@ function multiply(multiplier, ...numbers) {
 console.log(multiply(2, 1, 2, 3)); // Output - > [2, 4, 6]
 console.log(multiply(3, 4, 5, 6)); // Output - > [12, 15, 18]
 console.log(multiply(4, 7, 8, 9)); // Output - > [28, 32, 36]
+
+// Example - > 4
+
+function add(...numbers) {
+  return numbers.reduce((a, b) => a + b);
+}
+
+console.log(add(1, 2, 3)); // Output - > 6
+console.log(add(1, 2, 3, 4, 5)); // Output - > 15
+console.log(add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output - > 55
+
