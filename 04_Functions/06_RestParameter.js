@@ -72,3 +72,14 @@ console.log(multiplyAndAdd(3, 4, 5, 6)); // Output - > 63
 console.log(multiplyAndAdd(4, 7, 8, 9)); // Output - > 116
 
 
+// Example - > 8
+
+function multiplyAndSubtract(multiplier, ...numbers) {
+  return numbers.map((number) => multiplier * number).reduce((a, b) => a - b);
+}
+
+console.log(multiplyAndSubtract(2, 1, 2, 3)); // Output - > -8
+console.log(multiplyAndSubtract(3, 4, 5, 6)); // Output - > -33
+console.log(multiplyAndSubtract(4, 7, 8, 9)); // Output - > -68
+
+
