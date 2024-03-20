@@ -101,3 +101,13 @@ function addAndSubtract(...numbers) {
 console.log(addAndSubtract(1, 2, 3)); // Output - > 0
 console.log(addAndSubtract(1, 2, 3, 4, 5)); // Output - > -9
 console.log(addAndSubtract(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output - > -45
+
+// Example - > 11
+
+function addAndDivide(...numbers) {
+  return numbers.reduce((a, b) => a + b) / numbers.reduce((a, b) => a / b);
+}
+
+console.log(addAndDivide(1, 2, 3)); // Output - > 6
+console.log(addAndDivide(1, 2, 3, 4, 5)); // Output - > 15
+console.log(addAndDivide(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output - > 55
