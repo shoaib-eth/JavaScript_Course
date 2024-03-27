@@ -67,3 +67,15 @@ function printDefaultValues([first = 1, second = 2, third = 3]) {
 const defaultValues = [10, 20];
 printDefaultValues(defaultValues); // Output: First: 10, Second: 20, Third: 3
 
+
+// Destructuring Rest Parameters
+
+function printRestParameters([first, ...rest]) {
+  console.log(`First: ${first}, Rest: ${rest}`);
+}
+
+const restParameters = [1, 2, 3, 4, 5];
+
+printRestParameters(restParameters); // Output: First: 1, Rest: 2,3,4,5
+
+
