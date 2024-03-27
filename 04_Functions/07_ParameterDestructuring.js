@@ -78,4 +78,13 @@ const restParameters = [1, 2, 3, 4, 5];
 
 printRestParameters(restParameters); // Output: First: 1, Rest: 2,3,4,5
 
+// Destructuring with Functions
+
+function getValues() {
+  return [1, 2, 3];
+}
+
+const [first, second, third] = getValues();
+console.log(`First: ${first}, Second: ${second}, Third: ${third}`); // Output: First: 1, Second: 2, Third: 3
+
 
