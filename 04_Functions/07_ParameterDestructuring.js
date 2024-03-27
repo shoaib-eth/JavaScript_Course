@@ -20,3 +20,22 @@ function printColors([firstColor, secondColor]) {
 
 const colors = ["Red", "Green", "Yellow"];
 printColors(colors);
+
+// Destructuring Nested Objects
+
+function printNestedObject({ name, age, address: { city, state } }) {
+  console.log(
+    `${name} is ${age} years old and lives in ${city}, ${state}`
+  );
+}
+
+const person = {
+  name: "John Doe",
+  age: 25,
+  address: {
+    city: "New York",
+    state: "NY",
+  },
+};
+
+printNestedObject(person); // Output: John Doe is 25 years old and lives in New York, NY 
