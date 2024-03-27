@@ -58,3 +58,12 @@ function printMixedDataTypes([first, { name, age }, third]) {
 const mixedDataTypes = [1, { name: "John", age: 30 }, 3];
 printMixedDataTypes(mixedDataTypes); // Output: First: 1, Name: John, Age: 30, Third: 3
 
+// Destructuring Default Values
+
+function printDefaultValues([first = 1, second = 2, third = 3]) {
+  console.log(`First: ${first}, Second: ${second}, Third: ${third}`);
+}
+
+const defaultValues = [10, 20];
+printDefaultValues(defaultValues); // Output: First: 10, Second: 20, Third: 3
+
