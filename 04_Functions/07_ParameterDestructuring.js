@@ -39,3 +39,13 @@ const person = {
 };
 
 printNestedObject(person); // Output: John Doe is 25 years old and lives in New York, NY 
+
+// Destructuring Nested Arrays
+
+function printNestedArray([first, [second, third]]) {
+  console.log(`First: ${first}, Second: ${second}, Third: ${third}`);
+}
+
+const nestedArray = [1, [2, 3], 4];
+printNestedArray(nestedArray); // Output: First: 1, Second: 2, Third: 3
+
