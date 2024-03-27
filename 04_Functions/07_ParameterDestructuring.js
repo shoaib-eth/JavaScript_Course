@@ -49,3 +49,12 @@ function printNestedArray([first, [second, third]]) {
 const nestedArray = [1, [2, 3], 4];
 printNestedArray(nestedArray); // Output: First: 1, Second: 2, Third: 3
 
+// Destructuring Mixed Data Types
+
+function printMixedDataTypes([first, { name, age }, third]) {
+  console.log(`First: ${first}, Name: ${name}, Age: ${age}, Third: ${third}`);
+}
+
+const mixedDataTypes = [1, { name: "John", age: 30 }, 3];
+printMixedDataTypes(mixedDataTypes); // Output: First: 1, Name: John, Age: 30, Third: 3
+
