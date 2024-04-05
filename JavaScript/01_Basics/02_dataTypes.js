@@ -1,6 +1,6 @@
 "use strict"; // This is used to enable strict mode in JavaScript and treat all JS code as newer version.
 
-alert("Data Types in JavaScript"); // This will show an alert box with the message "Data Types in JavaScript".
+// alert("Data Types in JavaScript"); // This will show an alert box with the message "Data Types in JavaScript".
 
 console.log(3 
     + 
