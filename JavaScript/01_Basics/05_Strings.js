@@ -32,3 +32,48 @@ console.log(url.replace("%20", "-"));
 console.log(url.includes("John"));
 
 console.log(gameName.split("-"));
+
+console.log(gameName.concat(" ", "Shoaib"));
+
+console.log(gameName.startsWith("Shoaib")); // true
+
+console.log(gameName.endsWith("Shoaib")); // false
+
+console.log(gameName.repeat(2)); // Shoaib-kh-commitsShoaib-kh-commits
+
+console.log(gameName.search("kh")); // 6
+
+console.log(gameName.match("kh")); // [ 'kh', index: 6, input: 'Shoaib-kh-commits', groups: undefined ]
+
+console.log(gameName.match(/kh/g)); // [ 'kh' ]
+
+console.log(gameName.match(/kh/gi)); // [ 'kh', 'kh' ]
+
+console.log(gameName.match(/kh/gi).length); // 2
+
+console.log(gameName.match(/kh/gi).join(" ")); // kh kh
+
+console.log(gameName.match(/kh/gi).reverse()); // [ 'kh', 'kh' ]
+
+console.log(gameName.match(/kh/gi).reverse().join(" ")); // kh kh
+
+console.log(gameName.match(/kh/gi).reverse().join(" ").toUpperCase()); // KH KH
+
+console.log(
+  gameName.match(/kh/gi).reverse().join(" ").toUpperCase().split(" ")
+); // [ 'KH', 'KH' ]
+
+console.log(
+  gameName.match(/kh/gi).reverse().join(" ").toUpperCase().split(" ").join("")
+); // KHKH
+
+console.log(
+  gameName
+    .match(/kh/gi)
+    .reverse()
+    .join(" ")
+    .toUpperCase()
+    .split(" ")
+    .join("")
+    .repeat(2)
+); // KHKHKHKH
