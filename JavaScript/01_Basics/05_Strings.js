@@ -12,28 +12,28 @@ const gameName = new String("Shoaib-kh-commits");
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf("t"));
+console.log(gameName.charAt(2)); // o
+console.log(gameName.indexOf("t")); // 13
 
 const newString = gameName.substring(0, 4);
-console.log(newString);
+console.log(newString); // Shoa
 
 const anotherString = gameName.slice(-8, 4);
-console.log(anotherString);
+console.log(anotherString); // kh
 
 const newStringOne = "   Shoaib    ";
-console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne); //    Shoaib
+console.log(newStringOne.trim()); // Shoaib
 
 const url = "https://Shoaib.com/Shoaib%20Khan/commits";
 
-console.log(url.replace("%20", "-"));
+console.log(url.replace("%20", "-")); // https://Shoaib.com/Shoaib-Khan/commits
 
-console.log(url.includes("John"));
+console.log(url.includes("John")); // false
 
-console.log(gameName.split("-"));
+console.log(gameName.split("-")); // [ 'Shoaib', 'kh', 'commits' ]
 
-console.log(gameName.concat(" ", "Shoaib"));
+console.log(gameName.concat(" ", "Shoaib")); // Shoaib-kh-commits Shoaib
 
 console.log(gameName.startsWith("Shoaib")); // true
 
