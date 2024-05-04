@@ -13,3 +13,18 @@ const userCart = [
 
 const myCart = userCart.every((cartItem) => cartItem.price <= 50000);
 console.log(`Is Every Cart Items Price Below 50000 : ${myCart}`);
+
+// Example - > 3
+
+const myCart2 = userCart.every((cartItem) => cartItem.price <= 20000);
+console.log(`Is Every Cart Items Price Below 20000 : ${myCart2}`);  
+
+// Example - > 4
+
+const myCart3 = userCart.every((cartItem) => cartItem.price <= 45000);
+console.log(`Is Every Cart Items Price Below 45000 : ${myCart3}`); // false
+
+// Example - > 5
+
+const myCart4 = userCart.every((cartItem) => cartItem.price <= 15000);
+console.log(`Is Every Cart Items Price Below 15000 : ${myCart4}`); // true
