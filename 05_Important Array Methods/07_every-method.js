@@ -17,7 +17,7 @@ console.log(`Is Every Cart Items Price Below 50000 : ${myCart}`);
 // Example - > 3
 
 const myCart2 = userCart.every((cartItem) => cartItem.price <= 20000);
-console.log(`Is Every Cart Items Price Below 20000 : ${myCart2}`);  
+console.log(`Is Every Cart Items Price Below 20000 : ${myCart2}`);
 
 // Example - > 4
 
