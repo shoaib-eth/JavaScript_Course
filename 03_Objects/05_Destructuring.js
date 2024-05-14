@@ -121,7 +121,6 @@ console.log(first1); // 1
 console.log(third); // 3
 console.log(fifth); // 5
 
-
 // Destructuring Function Parameters
 
 function printPersonDetails1({ name, age }) {
