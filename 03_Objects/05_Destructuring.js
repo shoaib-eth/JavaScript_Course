@@ -90,3 +90,13 @@ const obj2 = { c: 3, d: 4 };
 const combinedObject = { ...obj1, ...obj2 };
 
 console.log(combinedObject);
+
+// Array Destructuring
+
+const arr = [1, 2, 3, 4, 5];
+
+const [first, second, ...rest] = arr;
+
+console.log(first); // 1
+console.log(second); // 2
+console.log(rest); // [3, 4, 5]
