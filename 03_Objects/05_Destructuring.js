@@ -111,3 +111,12 @@ let y = 20;
 console.log(x); // 20
 console.log(y); // 10
 
+// Ignoring Elements
+
+const arr3 = [1, 2, 3, 4, 5];
+
+const [first1, , third, , fifth] = arr3;
+
+console.log(first1); // 1
+console.log(third); // 3
+console.log(fifth); // 5
