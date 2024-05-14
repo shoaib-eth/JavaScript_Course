@@ -100,3 +100,14 @@ const [first, second, ...rest] = arr;
 console.log(first); // 1
 console.log(second); // 2
 console.log(rest); // [3, 4, 5]
+
+// Swapping Variables
+
+let x = 10;
+let y = 20;
+
+[x, y] = [y, x];
+
+console.log(x); // 20
+console.log(y); // 10
+
