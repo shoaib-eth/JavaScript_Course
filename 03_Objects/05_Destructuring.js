@@ -120,3 +120,15 @@ const [first1, , third, , fifth] = arr3;
 console.log(first1); // 1
 console.log(third); // 3
 console.log(fifth); // 5
+
+
+// Destructuring Function Parameters
+
+function printPersonDetails1({ name, age }) {
+  console.log(`Name : ${name}`);
+  console.log(`Age : ${age}`);
+}
+
+const personDetails1 = { name: "John", age: 21 };
+
+printPersonDetails1(personDetails1); // Output - > Name : John, Age : 21
