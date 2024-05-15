@@ -22,4 +22,4 @@ console.log(array);
 const fruitArray = ["apple", "banana", "orange", "kiwi", "grapes"];
 
 fruitArray.fill("mango", 1, 4);
-console.log(fruitArray);
+console.log(fruitArray); // Output - > ["apple", "mango", "mango", "mango", "grapes"]
