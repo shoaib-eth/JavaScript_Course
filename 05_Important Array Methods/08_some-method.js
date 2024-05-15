@@ -24,7 +24,7 @@ console.log(ans); // Output - > true
 const grades = [80, 85, 90, 75, 95];
 
 const result = grades.some((grade) => grade >= 90);
-console.log(result);  // Output - > true
+console.log(result); // Output - > true
 
 // Example - > 5
 
