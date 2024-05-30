@@ -70,3 +70,8 @@ console.log(mySet1);
 console.log(mySet1.has(5)); // true
 console.log(mySet1.has(15)); // false
 
+// Deleting Elements
+
+mySet1.delete(5); // Removes 5 from the set
+console.log(mySet1); // Output - > Set(9) {1, 2, 3, 4, 6, 7, 8, 9, 10}
+
