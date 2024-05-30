@@ -75,3 +75,7 @@ console.log(mySet1.has(15)); // false
 mySet1.delete(5); // Removes 5 from the set
 console.log(mySet1); // Output - > Set(9) {1, 2, 3, 4, 6, 7, 8, 9, 10}
 
+// Getting the Size of a Set
+
+console.log(mySet1.size); // 9
+
