@@ -64,3 +64,9 @@ const myArrayValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const mySet1 = new Set(myArrayValues);
 console.log(mySet1);
+
+// Checking the Existence of an Element
+
+console.log(mySet1.has(5)); // true
+console.log(mySet1.has(15)); // false
+
