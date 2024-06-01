@@ -55,3 +55,31 @@ var increment = createCounter();
 console.log(increment());  // 1
 console.log(increment());  // 2
 console.log(increment());  // 3
+
+var increment2 = createCounter();
+console.log(increment2());  // 1
+console.log(increment2());  // 2
+console.log(increment2());  // 3
+
+// Example - > 5
+
+function createCounter() {
+  let counter = 0;
+  return {
+    increment: function () {
+      return ++counter;
+    },
+    decrement: function () {
+      return --counter;
+    },
+  };
+}
+
+var counter = createCounter();
+console.log(counter.increment());  // 1
+console.log(counter.increment());  // 2
+console.log(counter.increment());  // 3
+console.log(counter.decrement());  // 2
+console.log(counter.decrement());  // 1
+console.log(counter.decrement());  // 0
+
