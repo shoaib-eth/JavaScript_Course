@@ -86,3 +86,11 @@ const myMap2 = new Map([
 console.log(myMap2); // Map(3) {"Name" => "Shoaib", "Course" => "CSE", "Age" => 21}
 
 // Example - > 13 : Creating a Map with Initial Values
+
+const myMap3 = new Map([
+  ["Name", "Shoaib"],
+  ["Course", "CSE"],
+  ["Age", 21]
+]);
+
+console.log(myMap3); // Map(3) {"Name" => "Shoaib", "Course" => "CSE", "Age" => 21}
