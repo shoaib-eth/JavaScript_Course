@@ -42,3 +42,21 @@ console.log(myMap.size);  // 1
 
 myMap.clear();
 console.log(myMap.size); // 0
+
+// Example - > 9 : Completely delete a Map() Variable
+
+const emptyMap = new Map();
+console.log(emptyMap); // Map(0) {size: 0}
+
+emptyMap.set("Hello", "World");
+
+console.log(emptyMap); // Map(1) {"Hello" => "World"}
+
+emptyMap.clear();
+console.log(emptyMap); // Map(0) {size: 0}
+
+delete emptyMap;
+
+console.log(emptyMap); // ReferenceError: emptyMap is not defined
+
+// Example - > 10 : Converting a Map to an Array
