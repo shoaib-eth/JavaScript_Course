@@ -60,3 +60,8 @@ delete emptyMap;
 console.log(emptyMap); // ReferenceError: emptyMap is not defined
 
 // Example - > 10 : Converting a Map to an Array
+
+const myMapArray = Array.from(myMap);
+console.log(myMapArray); // []
+
+// Example - > 11 : Initializing a Map with Initial Values
