@@ -65,3 +65,14 @@ const myMapArray = Array.from(myMap);
 console.log(myMapArray); // []
 
 // Example - > 11 : Initializing a Map with Initial Values
+
+const myMapValues = [
+  ["Name", "Shoaib"],
+  ["Course", "CSE"],
+  ["Age", 21]
+];
+
+const myMap1 = new Map(myMapValues);
+console.log(myMap1); // Map(3) {"Name" => "Shoaib", "Course" => "CSE", "Age" => 21}
+
+// Example - > 12 : Creating a Map with Initial Values
