@@ -37,3 +37,8 @@ for (const [key, value] of myMap.entries()) {
 
 // Example - > 7 : Size of Map()
 console.log(myMap.size);  // 1
+
+// Example - > 8 : Clearing a Map
+
+myMap.clear();
+console.log(myMap.size); // 0
