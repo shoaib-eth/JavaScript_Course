@@ -71,3 +71,12 @@ const numbersArray = [1, 2, 3, 4, 5];
 // Remove all elements starting from index 2 using negative index
 numbersArray.splice(-3);
 console.log(numbersArray); // Output - > [1, 2]
+
+
+// Example - > 11
+
+const alphabets = ["a", "b", "c", "d", "e"];
+
+// Remove 'b' and 'c' and insert 'x', 'y', 'z' at their position
+alphabets.splice(1, 2, "x", "y", "z");
+console.log(alphabets); // Output - > ['a', 'x', 'y', 'z', 'd', 'e']
