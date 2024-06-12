@@ -63,3 +63,11 @@ const colorsArray = ["red", "blue", "green"];
 // Replace 'blue' with 'yellow' using negative index
 colorsArray.splice(-2, 1, "yellow"); 
 console.log(colorsArray); // Output - > ['red', 'yellow', 'green']
+
+// Example - > 10
+
+const numbersArray = [1, 2, 3, 4, 5];
+
+// Remove all elements starting from index 2 using negative index
+numbersArray.splice(-3);
+console.log(numbersArray); // Output - > [1, 2]
