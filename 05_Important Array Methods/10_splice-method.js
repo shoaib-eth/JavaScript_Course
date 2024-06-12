@@ -55,3 +55,11 @@ const letterArray = ["a", "b", "c", "d"];
 // Remove 'b' and 'c' using negative indexes
 letterArray.splice(-3, 2);
 console.log(letterArray); // Output - > ['a', 'd']
+
+// Example - > 9
+
+const colorsArray = ["red", "blue", "green"];
+
+// Replace 'blue' with 'yellow' using negative index
+colorsArray.splice(-2, 1, "yellow"); 
+console.log(colorsArray); // Output - > ['red', 'yellow', 'green']
