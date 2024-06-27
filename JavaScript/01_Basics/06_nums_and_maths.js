@@ -31,4 +31,9 @@ console.log(Math.floor(Math.random() * 10) + 1); // random number between 1 and 
 const min = 10;
 const max = 20;
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+console.log(Math.floor(Math.random() * (max - min + 1)) + min); // random number between 10 and 20
+
+// console.log(Math.PI); // 3.141592653589793
+// console.log(Math.E); // 2.718281828459045
+// console.log(Math.sqrt(25)); // 5
+// console.log(Math.cbrt(27)); // 3
