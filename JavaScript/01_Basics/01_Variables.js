@@ -22,3 +22,16 @@ because of issue in block scope and functional scope
 
 // Printing the values of the variables.
 console.table({ userId, userEmail, userPassword, userCity, userState });
+
+// Output
+/*
+┌──────────────┬────────────────────┐
+│   (index)    │       Values       │
+├──────────────┼────────────────────┤
+│    userId    │       29240        │
+│  userEmail   │ 'shoaib@gmail.com' │
+│ userPassword │       '6872'       │
+│   userCity   │      'Indore'      │
+│  userState   │  'Madhya Pradesh'  │
+└──────────────┴────────────────────┘
+*/
