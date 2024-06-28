@@ -1,28 +1,30 @@
 const readline = require("readline");
-
-console.log("Hello, world!");
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
 
-rl.question("Enter your name: ", (name) => {
-  rl.question("Enter your course: ", (course) => {
-    rl.question("Enter your email: ", (email) => {
-      rl.question("Enter your address: ", (address) => {
-        rl.question("Enter your college name: ", (college) => {
-          rl.question("Enter your CGPA: ", (cgpa) => {
-            console.table({
-              Name: name,
-              Course: course,
-              Email: email,
-              Address: address,
-              College: college,
-              CGPA: cgpa,
-            });
-          });
-        });
-      });
-    });
+const questions = [
+  "Enter your name: ",
+  "Enter your course: ",
+  "Enter your email: ",
+  "Enter your address: ",
+  "Enter your college name: ",
+  "Enter your CGPA: ",
+];
+
+const answers = {};
+
+const askQuestion = (index) => {
+  rl.question(questions[index], (answer) => {
+    answers[questions[index]] = answer;
+    if (index < questions.length - 1) {
+      askQuestion(index + 1);
+    } else {
+      console.table(answers);
+      rl.close();
+    }
   });
-});
+};
+
+askQuestion(0);
