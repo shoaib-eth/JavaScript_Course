@@ -44,3 +44,8 @@ console.log(car2.model); // Output: Accord
 // Calling object methods
 car1.start(); // Output: The Toyota Camry is starting...
 car2.start(); // Output: The Honda Accord is starting...
+
+// Adding a new method to the Car object
+Car.prototype.stop = function () {
+  console.log(`The ${this.make} ${this.model} is stopping...`);
+};
