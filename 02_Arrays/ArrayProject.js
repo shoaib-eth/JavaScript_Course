@@ -24,4 +24,13 @@ function displayProjects() {
 // Example usage
 addProject('Project 1', 'This is the first project', 'In progress');
 addProject('Project 2', 'This is the second project', 'Completed');
+// Displaying a creative message before displaying projects
+console.log('Welcome to the Project Showcase!');
+console.log('------------------------');
+
+// Displaying all projects
 displayProjects();
+
+// Displaying a creative message after displaying projects
+console.log('------------------------');
+console.log('Thank you for visiting the Project Showcase!');
