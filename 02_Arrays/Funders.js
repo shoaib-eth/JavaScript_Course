@@ -23,5 +23,4 @@ addFunder("Bob", 1500);
 console.log(funders); // Output: [{ name: "John", amount: 1000 }, { name: "Alice", amount: 2000 }, { name: "Bob", amount: 1500 }]
 
 withdrawFunds();
-
 console.log(funders); // Output: []
