@@ -1,15 +1,13 @@
-// Create an empty object to store funder details
-const crowdfunding = {};
+const name = prompt("Enter funder name:");
 
-// Function to add funder details to the object
-function addFunder(name, amount) {
-    crowdfunding[name] = amount;
-}
-
-// Example usage
-addFunder("John", 100);
-addFunder("Sarah", 200);
-addFunder("Michael", 50);
-
-// Print the funder details
-console.log(crowdfunding);
+const crowdfunding = {
+    funders: [],
+    addFunder(name, amount) {
+        this.funders.push({ name, amount });
+    },
+    withdrawFunds() {
+        const totalAmount = this.funders.reduce((total, funder) => total + funder.amount, 0);
+        this.funders.length = 0; // Empty the funders array
+        return totalAmount;
+    }
+};
