@@ -1,19 +1,22 @@
-// Function to calculate the area of a rectangle
-function calculateRectangleArea(length, width) {
-  return length * width;
+// Function to calculate division
+function divide(a, b) {
+  if (b === 0) {
+    throw new Error("Cannot divide by zero");
+  }
+  return a / b;
 }
 
-// Function to calculate the area of a circle
-function calculateCircleArea(radius) {
-  return Math.PI * radius * radius;
+// Function to calculate percentage
+function calculatePercentage(value, total) {
+  if (total === 0) {
+    throw new Error("Total cannot be zero");
+  }
+  return (value / total) * 100;
 }
 
-// Function to calculate the area of a triangle
-function calculateTriangleArea(base, height) {
-  return (base * height) / 2;
-}
+// Example usage
+const result = divide(10, 2);
+console.log("Division result:", result);
 
-// Testing the functions
-console.log("Rectangle area:", calculateRectangleArea(5, 10));
-console.log("Circle area:", calculateCircleArea(3));
-console.log("Triangle area:", calculateTriangleArea(4, 6));
+const percentage = calculatePercentage(25, 100);
+console.log("Percentage:", percentage);
