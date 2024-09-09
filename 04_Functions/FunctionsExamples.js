@@ -49,4 +49,20 @@ function isPalindrome(word) {
     return word === reversedWord;
 }
 
-// ... continue with more functions ...
+function isPrime(number) {
+    if (typeof number !== 'number') {
+        throw new Error('Input must be a number');
+    }
+
+    if (number <= 1) {
+        return false;
+    }
+
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+        if (number % i === 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
