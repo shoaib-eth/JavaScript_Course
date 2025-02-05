@@ -28,6 +28,8 @@ function main1() {
 // Call the main function to execute the program
 main1();
 
+// ---------------------------------------------------------------------------------------
+
 // Function to calculate the diagonal of a rectangle
 function calculateDiagonal(length, width) {
   return Math.sqrt(length * length + width * width);
