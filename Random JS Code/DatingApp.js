@@ -3,58 +3,13 @@
  * @class
  */
 class User {
-    /**
-     * Creates an instance of User.
-     * @param {string} name - The name of the user.
-     * @param {number} age - The age of the user.
-     * @param {string} gender - The gender of the user.
-     * @param {string[]} interests - The interests of the user.
-     */
-    constructor(name, age, gender, interests) {}
-
-    /**
-     * Adds a user to the matches list.
-     * @param {User} user - The user to be added to matches.
-     */
-    addMatch(user) {}
-
-    /**
-     * Returns the list of matched users.
-     * @returns {User[]} The list of matched users.
-     */
-    viewMatches() {}
-
-    /**
-     * Updates the user's details.
-     * @param {Object} details - The details to update.
-     * @param {string} [details.name] - The new name of the user.
-     * @param {number} [details.age] - The new age of the user.
-     * @param {string} [details.gender] - The new gender of the user.
-     * @param {string[]} [details.interests] - The new interests of the user.
-     */
-    updateDetails({ name, age, gender, interests }) {}
-
-    /**
-     * Sends a message to another user.
-     * @param {User} toUser - The user to send the message to.
-     * @param {string} message - The message to send.
-     */
-    sendMessage(toUser, message) {}
-
-    /**
-     * Returns the list of received messages.
-     * @returns {Object[]} The list of received messages.
-     * @returns {string} returns[].from - The name of the sender.
-     * @returns {string} returns[].message - The content of the message.
-     */
-    viewMessages() {}
-
-    /**
-     * Blocks a user.
-     * @param {User} user - The user to block.
-     */
-    blockUser(user) {}
-}
+  /**
+   * Creates an instance of User.
+   * @param {string} name - The name of the user.
+   * @param {number} age - The age of the user.
+   * @param {string} gender - The gender of the user.
+   * @param {string[]} interests - The interests of the user.
+   */
   constructor(name, age, gender, interests) {
     this.name = name;
     this.age = age;
@@ -65,14 +20,30 @@ class User {
     this.blockedUsers = [];
   }
 
+  /**
+   * Adds a user to the matches list.
+   * @param {User} user - The user to be added to matches.
+   */
   addMatch(user) {
     this.matches.push(user);
   }
 
+  /**
+   * Returns the list of matched users.
+   * @returns {User[]} The list of matched users.
+   */
   viewMatches() {
     return this.matches;
   }
 
+  /**
+   * Updates the user's details.
+   * @param {Object} details - The details to update.
+   * @param {string} [details.name] - The new name of the user.
+   * @param {number} [details.age] - The new age of the user.
+   * @param {string} [details.gender] - The new gender of the user.
+   * @param {string[]} [details.interests] - The new interests of the user.
+   */
   updateDetails({ name, age, gender, interests }) {
     if (name) this.name = name;
     if (age) this.age = age;
@@ -80,16 +51,31 @@ class User {
     if (interests) this.interests = interests;
   }
 
+  /**
+   * Sends a message to another user.
+   * @param {User} toUser - The user to send the message to.
+   * @param {string} message - The message to send.
+   */
   sendMessage(toUser, message) {
     if (!this.blockedUsers.includes(toUser)) {
       toUser.messages.push({ from: this.name, message });
     }
   }
 
+  /**
+   * Returns the list of received messages.
+   * @returns {Object[]} The list of received messages.
+   * @returns {string} returns[].from - The name of the sender.
+   * @returns {string} returns[].message - The content of the message.
+   */
   viewMessages() {
     return this.messages;
   }
 
+  /**
+   * Blocks a user.
+   * @param {User} user - The user to block.
+   */
   blockUser(user) {
     this.blockedUsers.push(user);
   }
