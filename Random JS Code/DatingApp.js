@@ -1,53 +1,70 @@
 class User {
-    constructor(name, age, gender, interests) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-        this.interests = interests;
-        this.matches = [];
-    }
+  constructor(name, age, gender, interests) {
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+    this.interests = interests;
+    this.matches = [];
+    this.messages = [];
+    this.blockedUsers = [];
+  }
 
-    addMatch(user) {
-        this.matches.push(user);
-    }
+  addMatch(user) {
+    this.matches.push(user);
+  }
 
-    viewMatches() {
-        return this.matches;
-    }
+  viewMatches() {
+    return this.matches;
+  }
 
-    updateDetails({ name, age, gender, interests }) {
-        if (name) this.name = name;
-        if (age) this.age = age;
-        if (gender) this.gender = gender;
-        if (interests) this.interests = interests;
+  updateDetails({ name, age, gender, interests }) {
+    if (name) this.name = name;
+    if (age) this.age = age;
+    if (gender) this.gender = gender;
+    if (interests) this.interests = interests;
+  }
+
+  sendMessage(toUser, message) {
+    if (!this.blockedUsers.includes(toUser)) {
+      toUser.messages.push({ from: this.name, message });
     }
+  }
+
+  viewMessages() {
+    return this.messages;
+  }
+
+  blockUser(user) {
+    this.blockedUsers.push(user);
+  }
 }
 
 class DatingApp {
-    constructor() {
-        this.users = [];
-    }
+  constructor() {
+    this.users = [];
+  }
 
-    registerUser(name, age, gender, interests) {
-        const newUser = new User(name, age, gender, interests);
-        this.users.push(newUser);
-        return newUser;
-    }
+  registerUser(name, age, gender, interests) {
+    const newUser = new User(name, age, gender, interests);
+    this.users.push(newUser);
+    return newUser;
+  }
 
-    findMatches(user) {
-        return this.users.filter(
-            (u) =>
-                u.gender !== user.gender &&
-                u.interests.some((interest) => user.interests.includes(interest))
-        );
-    }
+  findMatches(user) {
+    return this.users.filter(
+      (u) =>
+        u.gender !== user.gender &&
+        u.interests.some((interest) => user.interests.includes(interest)) &&
+        !user.blockedUsers.includes(u)
+    );
+  }
 
-    likeUser(user, likedUser) {
-        if (this.findMatches(user).includes(likedUser)) {
-            user.addMatch(likedUser);
-            likedUser.addMatch(user);
-        }
+  likeUser(user, likedUser) {
+    if (this.findMatches(user).includes(likedUser)) {
+      user.addMatch(likedUser);
+      likedUser.addMatch(user);
     }
+  }
 }
 
 // Example usage:
@@ -61,6 +78,14 @@ console.log(app.findMatches(user1)); // Should show Bob and Charlie as potential
 app.likeUser(user1, user2); // Alice likes Bob
 console.log(user1.viewMatches()); // Should show Bob as a match
 console.log(user2.viewMatches()); // Should show Alice as a match
+
+// Sending messages
+user1.sendMessage(user2, "Hi Bob!");
+console.log(user2.viewMessages()); // Should show a message from Alice
+
+// Blocking a user
+user1.blockUser(user3);
+console.log(app.findMatches(user1)); // Should not show Charlie as a potential match
 
 // Updating user details
 user1.updateDetails({ age: 26, interests: ["music", "travel"] });
