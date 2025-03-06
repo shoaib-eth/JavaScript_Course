@@ -84,6 +84,33 @@ function askQuestion(query) {
   return new Promise((resolve) => rl.question(query, resolve));
 }
 
+/**
+ * Main function to manage tasks.
+ * Continuously prompts the user to choose an action until 'exit' is selected.
+ * Actions include adding, editing, deleting, viewing, and completing tasks.
+ * After each action, tasks are saved and the current state of all tasks is logged.
+ *
+ * @async
+ * @function main
+ * @returns {Promise<void>} - Resolves when the user chooses to exit.
+ *
+ * @example
+ * // To start the task manager, simply call the main function:
+ * main();
+ *
+ * @description
+ * This function uses a while loop to continuously prompt the user for an action.
+ * Depending on the action chosen, it performs the corresponding task management operation:
+ * - 'add': Prompts for task name and deadline, then adds the task.
+ * - 'edit': Prompts for task index, new name, and new deadline, then edits the task.
+ * - 'delete': Prompts for task index, then deletes the task.
+ * - 'view': Prompts for task index, then displays the task details.
+ * - 'complete': Prompts for task index, then marks the task as completed.
+ * - 'exit': Breaks the loop and exits the function.
+ *
+ * After each action, the function saves the tasks and logs the current state of all tasks,
+ * pending tasks, and completed tasks.
+ */
 async function main() {
   while (true) {
     const action = await askQuestion(
